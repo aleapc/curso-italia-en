@@ -1,0 +1,56 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "titulo": "The evening: aperitivo, the round, and how to leave a table",
+  "subtitulo": "Aperitivo is not dinner and not a happy hour — knowing which it is decides whether you eat at nine",
+  "cena": "A glass has arrived with a plate of things next to it and you cannot tell whether this is a snack or the meal.",
+  "moldura": "ganha",
+  "frasePiso": "Ask what comes with it, decide whether it replaces dinner, and leave the table with a sentence instead of a wave.",
+  "decisao": "decidir se o aperitivo é o jantar ou a entrada dele antes de pedir a segunda rodada, porque isso muda o resto da noite",
+  "moldes": ["QUANTO-COSTA"],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i04-n01", "gesto": 1, "bloco": "aquecimento", "pt": "The Italian evening has a step before dinner. A drink, something to eat with it, and a decision about whether that is the whole meal." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i04-r01", "receptivo": true, "acao": "Ask what comes with it before ordering the second one.", "es": "Facciamo l'aperitivo? Qui viene con il buffet.", "pt": "Shall we do aperitivo? Here it comes with the buffet.", "tts": "Facciamo l'aperitivo? Qui viene con il buffet." },
+    { "consulta": ["conversa/planos", "comer/bebida"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i04-p01", "promptPt": "Say yes and ask what comes with the drink. Speak now.", "audioKey": "it-i04-t01", "es": "Volentieri. Cosa c'è compreso?", "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo", "pt": "Gladly. What's included?", "tts": "Volentieri. Cosa c'è compreso?" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i04-n02", "bloco": "corpo", "pt": "That question decides the night. If a buffet is included, this is dinner. If it is olives and crisps, dinner is still coming at nine." },
+    { "consulta": ["pagar/preco", "comer/bebida"], "tipo": "responde", "voz": "target_it_f", "molde": "QUANTO-COSTA", "encaixe": "l'aperitivo", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i04-p02", "promptPt": "Ask the price of the aperitivo, using the frame from B11. Speak now.", "audioKey": "it-i04-t02", "es": "Quanto costa l'aperitivo?", "pinyin": "KWAN-to KOS-ta la-pe-ree-TEE-vo", "pt": "How much is the aperitivo?", "tts": "Quanto costa l'aperitivo?" },
+    { "consulta": ["comer/bebida"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i04-p03", "promptPt": "Order the classic one and let them choose which. Speak now.", "audioKey": "it-i04-t03", "es": "Un Aperol spritz, per favore.", "pinyin": "oon A-pe-rol spreets per fa-VO-re", "pt": "An Aperol spritz, please.", "tts": "Un Aperol spritz, per favore." },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i04-n03", "pt": "Something without alcohol is completely ordinary at this hour. Analcolico is the word, and nobody blinks." },
+    { "consulta": ["comer/bebida"], "tipo": "responde", "voz": "target_it_f", "molde": "C-E", "encaixe": "qualcosa di analcolico", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i04-p04", "promptPt": "Ask whether there is something non-alcoholic, using the frame from B08. Speak now.", "audioKey": "it-i04-t04", "es": "C'è qualcosa di analcolico?", "pinyin": "cheh kwal-KO-za dee a-nal-KO-lee-ko", "pt": "Is there something non-alcoholic?", "tts": "C'è qualcosa di analcolico?" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i04-n04", "bloco": "capsula", "pt": "Now the round. Offering to pay for everyone is normal, and so is being firmly refused the first time." },
+    { "consulta": ["pagar/conta"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i04-p05", "promptPt": "Offer to get this round. Speak now.", "audioKey": "it-i04-t05", "es": "Questo giro lo offro io.", "pinyin": "KWES-to JEE-ro lo OF-fro EE-o", "pt": "This round's on me.", "tts": "Questo giro lo offro io." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i04-r02", "receptivo": true, "acao": "Insist once, then let it go. Twice is generous, three times is a fight.", "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.", "pt": "Absolutely not. It's on me, you're guests.", "tts": "Ma no, ci mancherebbe. Offro io, siete ospiti." },
+    { "consulta": ["pagar/conta"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i04-p06", "promptPt": "Concede gracefully and claim the next one. Speak now.", "audioKey": "it-i04-t06", "es": "Va bene, ma il prossimo lo offro io.", "pinyin": "va BEH-ne, ma eel PROS-see-mo lo OF-fro EE-o", "pt": "All right, but the next one is on me.", "tts": "Va bene, ma il prossimo lo offro io." },
+    { "consulta": ["conversa/planos", "comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i04-p07", "promptPt": "Ask where they eat afterwards — the recommendation you actually want. Speak now.", "audioKey": "it-i04-t07", "es": "Dopo, dove si va a mangiare?", "pinyin": "DO-po, DO-ve see va a man-JA-re", "pt": "Afterwards, where does one go to eat?", "tts": "Dopo, dove si va a mangiare?" },
+    { "consulta": ["conversa/despedir"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i04-p08", "promptPt": "It is time to go. Leave the table properly instead of drifting off. Speak now.", "audioKey": "it-i04-t08", "es": "Noi andiamo, grazie della compagnia.", "pinyin": "noy an-DYA-mo, GRA-tsee-eh DEL-la kom-pa-NYEE-a", "pt": "We're heading off, thank you for the company.", "tts": "Noi andiamo, grazie della compagnia." },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i04-s01", "es": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.", "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo. KWES-to JEE-ro lo OF-fro EE-o. noy an-DYA-mo GRA-tsee-eh DEL-la kom-pa-NYEE-a", "pt": "Shadow the evening: accept, check, offer, leave.", "tts": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia." },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i04-n05", "bloco": "recap", "pt": "I04 done. Cosa c'è compreso decides whether you eat again, and grazie della compagnia is how a table is left." }
+  ],
+  "aprofundar": {
+    "titulo": "The step before dinner",
+    "secoes": [
+      { "titulo": "Aperitivo is a time, not a menu", "corpo": "Roughly from six or seven until dinner. The drink has a fixed price and what comes with it varies enormously by city and by bar — from a bowl of crisps to a buffet you can build a meal from.", "exemplos": [{ "es": "Cosa c'è compreso?", "pt": "What's included?" }, { "es": "Quanto costa l'aperitivo?", "pt": "How much is the aperitivo?" }] },
+      { "titulo": "The buffet version is a Milanese habit", "corpo": "The generous spread often called apericena is strongest in Milan and the north and much less common further south, where aperitivo stays small and dinner follows. Assuming either one nationally is how people end up either hungry or over-full." },
+      { "titulo": "Rounds and the refusal", "corpo": "Offering is expected; being refused the first time is also expected. Insist once, and if it is refused again, take the next round instead. Splitting a bar tab item by item is unusual and slightly cold." },
+      { "titulo": "Leave with a sentence", "corpo": "Drifting away from an Italian table reads as something having gone wrong. Noi andiamo, grazie della compagnia takes two seconds and closes the evening cleanly for everyone still sitting." }
+    ]
+  },
+  "slot": "I04",
+  "permissao": "You are allowed to order something without alcohol at aperitivo hour and to sit at the table for two hours over one drink. Neither of those is a failure to participate — the point of the hour is the sitting, and the bar is not counting your glasses.",
+  "permissaoAudioKey": "it-i04-n03",
+  "espelho": "Anyone who has stayed for a second drink they did not want because leaving felt abrupt knows the second half of this part. The exit sentence exists precisely so that going home early stops requiring an excuse.",
+  "fichasCulturais": [
+    {
+      "sinal": "You order an aperitivo and food starts arriving that you did not order and were not told about.",
+      "suaLeitura": "I am being served things I will be charged for.",
+      "oQueEAli": "At aperitivo hour the food that comes with the drink is included in its price. The drink costs more than the same drink at noon precisely because of what arrives beside it.",
+      "oQueVoceFaz": "Ask cosa c'è compreso? when you order, so you know whether this is a snack or the meal, and plan dinner accordingly.",
+      "oQueMelhora": "You either stop looking for a restaurant at nine or you stop filling up on a buffet an hour before dinner — both of which are decided by one question.",
+      "ondeNaoVale": "Not a rule that everything on the counter is free — in some places the buffet is a separate paid item, and the size of what is included varies sharply between north and south.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-i04-n02"]
+    }
+  ]
+}
