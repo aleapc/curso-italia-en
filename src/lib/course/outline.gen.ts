@@ -55,6 +55,22 @@ export const outline: ModuloOutline[] = [
       { id: 'i10', titulo: 'Money here: the card they must take, the tip nobody expects', pronta: true },
     ]
   },
+  {
+    nivel: 'avancado',
+    nome: 'Advanced · Read the room',
+    descricao: 'The humour, the pride, the old argument, and what their silence means.',
+    cor: 'indigo',
+    licoes: [
+      { id: 'a01', titulo: 'How they talk when it isn\'t to you', pronta: true },
+      { id: 'a02', titulo: 'What they laugh at, and the one joke you can safely make', pronta: true },
+      { id: 'a03', titulo: 'Who they think they are', pronta: true },
+      { id: 'a04', titulo: 'The old argument', pronta: true },
+      { id: 'a05', titulo: 'The other language', pronta: true },
+      { id: 'a06', titulo: 'Their calendar', pronta: true },
+      { id: 'a07', titulo: 'Signals: welcome, mild irritation, and time to go', pronta: true },
+      { id: 'a08', titulo: 'The goodbye that gets you invited back', pronta: true },
+    ]
+  },
 ];
 
 // Gerado de static/img/ — a home só pede imagem que existe.

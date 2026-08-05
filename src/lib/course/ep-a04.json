@@ -1,0 +1,249 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "The old argument",
+  "subtitulo": "North and south is the fault line every country has one of — and the only useful position for a visitor is curiosity",
+  "cena": "Someone has just explained to you, with feeling, what is wrong with the other half of their country.",
+  "moldura": "ganha",
+  "frasePiso": "Ask, listen, and do not rank. The question that keeps you welcome is how it looks from here, never which side is right.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-divario",
+      "afirmacao": "A persistent economic gap between northern and southern Italy is documented in official statistics: GDP per capita, employment rates and household income are substantially lower in the Mezzogiorno than in the centre-north, and the gap has proved durable across decades of policy. This is measured economic fact; the explanations for it are actively contested.",
+      "fonte": "Istat — «Rapporto annuale», capitoli sui divari territoriali; SVIMEZ — «Rapporto sull'economia del Mezzogiorno»",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-a04-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Every country has one line that runs through everything. In Italy it runs roughly between the north and the south."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a04-n02",
+      "bloco": "corpo",
+      "pt": "You will hear it in jokes, in politics, in football, and in where people say they would or would not live."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a04-r01",
+      "receptivo": true,
+      "acao": "Do not agree, do not object. Ask a question and let them keep talking.",
+      "es": "Al sud si vive meglio, ma il lavoro sta al nord. È così.",
+      "pt": "Life is better in the south, but the work is in the north. That's how it is.",
+      "tts": "Al sud si vive meglio, ma il lavoro sta al nord. È così."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a04-n03",
+      "bloco": "capsula",
+      "pt": "The economic gap is measured and real. What causes it is argued about, and that argument is the sensitive part."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a04-p01",
+      "promptPt": "Ask about their own experience rather than about the country. Speak now.",
+      "audioKey": "it-a04-t01",
+      "es": "E lei come l'ha vissuta?",
+      "pinyin": "eh lay KO-me la vees-SOO-ta",
+      "pt": "And how did you experience it?",
+      "tts": "E lei come l'ha vissuta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a04-r02",
+      "receptivo": true,
+      "acao": "This is a family story, not a political position. Listen to it as one.",
+      "es": "Mio padre è partito da Bari a vent'anni. Non è più tornato.",
+      "pt": "My father left Bari at twenty. He never went back.",
+      "tts": "Mio padre è partito da Bari a vent'anni. Non è più tornato."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a04-n04",
+      "pt": "Internal migration touched an enormous number of families. What sounds like a position is often a family history."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a04-r03",
+      "receptivo": true,
+      "acao": "Football rivalry carries the same fault line. Enjoy it; do not pick a team as a proxy.",
+      "es": "Quando gioca il Napoli contro la Juve, non è solo calcio.",
+      "pt": "When Napoli play Juventus, it isn't only football.",
+      "tts": "Quando gioca il Napoli contro la Juve, non è solo calcio."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a04-p02",
+      "promptPt": "Ask what it means, without taking a side. Speak now.",
+      "audioKey": "it-a04-t02",
+      "es": "Perché è così sentita questa partita?",
+      "pinyin": "per-KEH eh ko-ZEE sen-TEE-ta KWES-ta par-TEE-ta",
+      "pt": "Why is this match felt so strongly?",
+      "tts": "Perché è così sentita questa partita?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a04-n05",
+      "pt": "The wrong move is a verdict. Any sentence where you rank the two halves of the country costs you the rest of the conversation."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a04-p03",
+      "promptPt": "Say honestly that you do not know enough to have a view. Speak now.",
+      "audioKey": "it-a04-t03",
+      "es": "Non ne so abbastanza per giudicare.",
+      "pinyin": "non neh so ab-bas-TAN-tsa per joo-dee-KA-re",
+      "pt": "I don't know enough to judge.",
+      "tts": "Non ne so abbastanza per giudicare."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a04-p04",
+      "promptPt": "Say what you liked about the other half, as experience rather than as ranking. Speak now.",
+      "audioKey": "it-a04-t04",
+      "es": "Al sud mi hanno accolto benissimo, devo dire.",
+      "pinyin": "al sood mee AN-no ak-KOL-to be-NEES-see-mo, DE-vo DEE-re",
+      "pt": "In the south they welcomed me wonderfully, I have to say.",
+      "tts": "Al sud mi hanno accolto benissimo, devo dire."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a04-r04",
+      "receptivo": true,
+      "acao": "That landed well. The experience was allowed; a comparison would not have been.",
+      "es": "Eh, quello sì. Su quello non si discute.",
+      "pt": "Ah, that yes. There's no arguing about that.",
+      "tts": "Eh, quello sì. Su quello non si discute."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a04-p05",
+      "promptPt": "Ask what changed in their town over the years. Speak now.",
+      "audioKey": "it-a04-x01",
+      "es": "Qui cos'è cambiato negli anni?",
+      "pinyin": "kwee ko-ZEH kam-bee-A-to NE-lyee AN-nee",
+      "pt": "What's changed here over the years?",
+      "tts": "Qui cos'è cambiato negli anni?"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a04-p06",
+      "promptPt": "Say the trip taught you the country is not one place. Speak now.",
+      "audioKey": "it-a04-x02",
+      "es": "Ho capito che l'Italia non è una sola.",
+      "pinyin": "oh ka-PEE-to keh lee-TA-lya non eh OO-na SO-la",
+      "pt": "I've realised Italy isn't just one place.",
+      "tts": "Ho capito che l'Italia non è una sola."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a04-n06",
+      "bloco": "recap",
+      "pt": "A04 done. The gap is real, the explanation is contested, and your job is a question rather than a verdict."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "A line that runs through everything",
+    "secoes": [
+      {
+        "titulo": "Fact and interpretation are different things",
+        "corpo": "That the economic gap exists is measured and uncontroversial. Why it exists — history, policy, the state, organised crime, unification itself — is argued about with real feeling, and that second part is where a visitor's opinion is not wanted."
+      },
+      {
+        "titulo": "It is often a family story",
+        "corpo": "Large-scale internal migration from south to north shaped enormous numbers of Italian families. When someone tells you what they think about the divide, you are frequently hearing an account of their own parents' lives.",
+        "exemplos": [
+          {
+            "es": "E lei come l'ha vissuta?",
+            "pt": "And how did you experience it?"
+          },
+          {
+            "es": "Non ne so abbastanza per giudicare.",
+            "pt": "I don't know enough to judge."
+          }
+        ]
+      },
+      {
+        "titulo": "Football carries it",
+        "corpo": "Certain fixtures are proxies for the whole argument, and the chanting can be uglier than anything you will hear in conversation. Enjoying the match without adopting a side is entirely possible and much safer."
+      },
+      {
+        "titulo": "Experience beats comparison",
+        "corpo": "Saying you were welcomed somewhere is an account of your trip. Saying one half of the country is better than the other is a verdict on theirs. The first is always safe; the second is never worth it."
+      }
+    ]
+  },
+  "slot": "A04",
+  "permissao": "You are allowed to say you do not have an opinion. Non ne so abbastanza per giudicare is not evasion in this conversation — it is the accurate answer after three weeks in a country, and it is heard as respect rather than as reticence.",
+  "permissaoAudioKey": "it-a04-n05",
+  "espelho": "Every country has the argument that outsiders should stay out of, and everyone knows the feeling of hearing a visitor confidently take a side in theirs. Recognising the shape of it in Italy is easier than it sounds, because you already know it from home.",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone criticises the other half of the country in front of you and pauses, apparently waiting for your view.",
+      "suaLeitura": "They want my opinion, and having one shows I have been paying attention.",
+      "oQueEAli": "The pause is usually rhetorical rather than an actual request for an outside verdict. The divide is an internal argument with a century and a half of history and, very often, personal family stakes attached to it.",
+      "oQueVoceFaz": "Replace the verdict with a question about their experience — e lei come l'ha vissuta? — or offer your own experience without ranking anything.",
+      "oQueMelhora": "You get the real story, which is usually much more interesting than the position, and you stay in the conversation instead of ending it.",
+      "ondeNaoVale": "Not a reason to be silent about your own trip. Saying where you were treated well is welcome; it only becomes a problem when it turns into a comparison.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-a04-n04",
+        "it-a04-n05"
+      ]
+    }
+  ]
+}
