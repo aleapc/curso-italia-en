@@ -49,7 +49,7 @@
         "mesa/pedir"
       ],
       "tipo": "responde",
-      "voz": "target_it_f",
+      "voz": "target_it_m",
       "promptVoz": "guide_en_us_m",
       "promptAudioKey": "it-b01-p01",
       "promptPt": "At the counter, order one coffee. Say every syllable. Speak now.",
@@ -108,7 +108,7 @@
         "mesa/pedir"
       ],
       "tipo": "responde",
-      "voz": "target_it_f",
+      "voz": "target_it_m",
       "promptVoz": "guide_en_us_m",
       "promptAudioKey": "it-b01-p03",
       "promptPt": "Order a chocolate gelato. Soft g, soft c. Speak now.",
