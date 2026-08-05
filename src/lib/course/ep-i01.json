@@ -228,7 +228,7 @@
       },
       {
         "titulo": "Dinner starts later going south",
-        "corpo": "In the north a kitchen may open at half seven; in the south nine is ordinary and the room can fill at ten. Judging a place by how empty it looks at eight will mislead you almost everywhere in Italy."
+        "corpo": "In the north a kitchen may open at half seven; in the south nine is ordinary and the room can fill at ten. Worth being honest about the status of these numbers: opening hours were fully deregulated in 2011, so none of this is a rule, and no national survey of when Italians actually sit down was findable. It is a well-reported convention, not a measurement — which is exactly why the part teaches you to ask rather than to memorise a clock."
       },
       {
         "titulo": "The six o'clock signal",
@@ -253,6 +253,20 @@
       "oQueMelhora": "You stop selecting restaurants by which ones are full of people on a foreign schedule, which is a filter that reliably picks the wrong ones.",
       "ondeNaoVale": "Not at lunch, where a full room genuinely is a good sign because the window is narrow and everyone eats within the same two hours — and not in a place that is empty at ten.",
       "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i01-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-orari-liberalizzati",
+      "afirmacao": "There is no legally fixed dinner hour in Italy: opening and closing times for commercial and food-service businesses were fully liberalised by Art. 31 of D.L. 201/2011, converted into L. 214/2011, applying nationwide without regional implementation. The hours taught in this part are therefore convention rather than rule, and no Istat or trade survey of average dinner start times was locatable — the north-south gradient is widely reported but not measured.",
+      "fonte": "Camera dei Deputati — dossier «Disciplina degli orari di apertura degli esercizi commerciali»; D.L. 201/2011 conv. L. 214/2011",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
       "audioKeys": [
         "it-i01-n02"
       ]

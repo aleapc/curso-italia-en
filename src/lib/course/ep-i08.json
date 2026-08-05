@@ -222,7 +222,7 @@
     "secoes": [
       {
         "titulo": "Niente means bring something",
-        "corpo": "The refusal of your offer is part of the exchange, not the answer to it. Dessert from a proper pasticceria is the safest choice; flowers work; wine works if you know what they drink.",
+        "corpo": "The refusal of your offer is part of the exchange, not the answer to it. Wine suits any register and sweets are standard. Flowers are the one trap: etiquette says send them ahead rather than hand over a bouquet at the door, because the host then has to abandon the greeting to find a vase.",
         "exemplos": [
           {
             "es": "Cosa posso portare?",
@@ -235,8 +235,8 @@
         ]
       },
       {
-        "titulo": "Cin cin, and the eyes",
-        "corpo": "Cin cin and salute are both standard. The part that matters more than the word is looking at each person as you touch glasses — skipping the eye contact is the thing people notice."
+        "titulo": "Cin cin, and what is actually documented",
+        "corpo": "Cin cin is what you will hear, everywhere and from everyone; it came into Italian from Chinese qing qing by way of sailors. Curiously it is the formula the etiquette academies dislike — they prefer alla salute — so if you hear someone correct it, that is a purist position rather than a rule. One real piece of folklore: toasting with water is held to bring bad luck, a sailors' superstition. You may have read that you must never cross arms and must always meet each person's eyes; those are repeated everywhere and sourced nowhere, so this course does not teach them."
       },
       {
         "titulo": "Lunch is long by design",
@@ -244,7 +244,7 @@
       },
       {
         "titulo": "The coffee is the signal",
-        "corpo": "Once coffee has been served and drunk, leaving becomes normal rather than early. Before that, standing up reads as the meal having gone wrong."
+        "corpo": "Once coffee has been served and drunk, leaving becomes normal rather than early. Etiquette guides put a weeknight informal dinner as ending around eleven — but that is a northern, mid-week framing, and it does not survive a southern dinner that only started at half nine. The coffee is the more portable signal than the clock."
       }
     ]
   },
@@ -263,6 +263,32 @@
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i08-n05"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-brindisi",
+      "afirmacao": "Cin cin is the near-universal informal toast, from Chinese qing qing, carried into European ports by sailors. It is contested by prescriptive authority rather than by usage: the Accademia Italiana di Galateo advises against it and prefers «Alla salute!». The belief that toasting with water brings bad luck is a documented sailors' superstition. NOT VERIFIED: the widely circulated rules about never crossing arms and always making eye contact while toasting — no Italian source for either was found, and this course does not teach them.",
+      "fonte": "Callmewine — «Brindisi Cin Cin: significato ed etimologia»; Accademia Italiana di Galateo via Cookist — «Galateo del brindisi»; Il Post — «Alla salute!», 31 dicembre 2023",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i08-n05"
+      ]
+    },
+    {
+      "id": "it-cosa-portare",
+      "afirmacao": "Italian galateo holds that a guest never arrives empty-handed. Wine suits any register, including formal dinners; sweets are standard. Flowers carry a caveat: etiquette advises sending them ahead — mid-morning for a lunch, afternoon for a dinner — rather than handing over a bouquet at the door, since the host then has to stop receiving guests to find a vase. For informal weeknight dinners, etiquette places the departure at around eleven; that framing is northern and mid-week and does not survive a southern dinner that starts at half nine.",
+      "fonte": "Accademia Italiana Galateo — «Cosa portare quando sono invitato?»; Donna Moderna — «Galateo degli inviti a cena»; Elisa Motterle — «Il Bon Ton delle cene informali»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i08-n03"
       ]
     }
   ]

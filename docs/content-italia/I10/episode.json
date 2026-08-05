@@ -13,14 +13,26 @@
   "fatosDatados": [
     {
       "id": "it-pos-obbligo",
-      "afirmacao": "Merchants and professionals in Italy are legally required to accept electronic card payments for goods and services, with no minimum amount, and a sanction regime applies to refusals. In practice refusals still happen and are commonly presented as a technical fault with the terminal.",
-      "fonte": "Governo Italiano — obbligo di accettazione dei pagamenti elettronici (POS), D.L. 179/2012 e successive modifiche; Altroconsumo — «Pagamenti con carta: quando il negoziante non può rifiutare»",
+      "afirmacao": "Merchants, artisans and professionals in Italy must accept electronic card payments with no minimum amount, save objective technical impossibility. Since 30 June 2022 a refusal carries an administrative fine of EUR 30 plus 4% of the value of the refused transaction. From 1 January 2026 the POS terminal must also be linked to the electronic cash register. Compliance is imperfect and measured: Altroconsumo mystery-shopping found card payment refused by 18% of taxis across six cities, by roughly half of tobacconists, and by 37-40% of market stallholders, usually excused as a broken terminal.",
+      "fonte": "D.L. 179/2012 e successive modifiche; Legge di Bilancio 2025 (collegamento POS-registratore); Altroconsumo — «Pagare con pos: il 18% dei taxi dice no», dicembre 2023",
       "ano": 2026,
-      "revisarAte": "2027-08-04",
+      "revisarAte": "2027-08-05",
       "evidencia": "FATO",
       "risco": "medio",
       "audioKeys": [
         "it-i10-n03"
+      ]
+    },
+    {
+      "id": "it-mancia",
+      "afirmacao": "Tipping in Italy is voluntary and small: FIPE reports that around 60% of Italian customers tip more or less frequently, typically a few euros in cash. It is in practice cash-only — about 62% of venues accept tips only in cash and just 0.8% allow an electronic tip. Federconsumatori holds that a tip must remain a free choice of the customer, and treats a 10% «tip» added to the bill by the restaurant as a hidden cost to contest. No institutional source for taxi or hotel tipping norms was found; percentage figures circulating for taxis are travel-blog claims that contradict each other.",
+      "fonte": "FIPE via QuiFinanza — «Mancia al ristorante, quanto può incidere sul conto»; Linkiesta — «Nei ristoranti italiani è ancora difficile pagare la mancia con carta», gennaio 2025; Federconsumatori Toscana via La Nazione",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i10-n02"
       ]
     }
   ],
@@ -215,7 +227,7 @@
     "secoes": [
       {
         "titulo": "The card obligation is real",
-        "corpo": "Accepting electronic payment is a legal requirement for businesses in Italy, with no minimum spend, and there is a sanction regime behind it. Refusals still happen, usually framed as a technical fault, and a level proviamo lo stesso resolves most of them without anyone losing face.",
+        "corpo": "Accepting electronic payment is a legal requirement with no minimum spend, and since mid-2022 a refusal carries a fine of thirty euros plus four percent of the refused transaction. Refusals still happen and are measured: consumer-association mystery shopping found roughly one taxi in five and about half of tobacconists turning cards away, almost always as a broken terminal. A level proviamo lo stesso resolves most of them.",
         "exemplos": [
           {
             "es": "Proviamo lo stesso, per favore?",
@@ -229,15 +241,15 @@
       },
       {
         "titulo": "Alla romana",
-        "corpo": "Splitting the total evenly among everyone at the table, regardless of who ordered what. It is the common default among friends and it is faster than itemising, which is why it exists."
+        "corpo": "Splitting the total evenly among everyone at the table, regardless of who ordered what. The Accademia della Crusca traces it to the old romanata, a gathering where each diner paid a share of the whole. It is not a joke about Romans being tight — that is pagare alla genovese, a different and unkind expression. Equal splitting is the common default among friends and is faster than itemising."
       },
       {
         "titulo": "Tipping is not the mechanism",
-        "corpo": "Service is normally covered by the price or by a declared servizio line. Rounding up is a warm gesture and is understood as one; adding a percentage on top is neither expected nor read as generous in the way it would be elsewhere."
+        "corpo": "About six Italian customers in ten tip, and when they do it is a couple of euros in cash rather than a percentage. It is cash in practice as well as by habit: barely any venue can route a tip through the card machine. A service charge already declared on the bill is the service being paid for; a ten percent «tip» the restaurant adds by itself is a different thing, and consumer associations treat it as a hidden cost."
       },
       {
         "titulo": "Where haggling lives",
-        "corpo": "Flea markets, antique fairs and street vendors, mildly and briefly. Shops, restaurants, bars and taxis are fixed-price, and attempting to negotiate there reads as not understanding what kind of place you are in."
+        "corpo": "Flea markets, second-hand fairs and antique markets, mildly, and scaling with the setting: near-expected at a flea market, minimal and formal at a high-end antiques fair. Shops, restaurants, bars and taxis are fixed-price. This one is background rather than a sourced fact — no consumer or trade body publishes on it — but nothing found contradicts it."
       }
     ]
   },

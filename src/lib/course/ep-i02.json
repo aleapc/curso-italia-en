@@ -225,11 +225,11 @@
       },
       {
         "titulo": "Cassa first, sometimes",
-        "corpo": "Some bars take payment at the till before serving, some after, and there is no way to tell from the doorway. One question settles it, and watching the person in front of you settles it for free."
+        "corpo": "Charging before serving is entirely lawful, and both systems are in use: pay-first is common in busy urban bars, order-first and settle on the way out is common in smaller towns. The printed sign asking you to make the scontrino at the till is the tell, and watching the person ahead of you is free."
       },
       {
         "titulo": "The cappuccino rule, honestly",
-        "corpo": "There is a genuine convention that milky coffee belongs to the morning, and there is no rule, no refusal and no penalty. Both halves of that are true. Order what you want and know that the convention exists — that is a different thing from obeying it."
+        "corpo": "There is a genuine convention that milky coffee belongs to the morning, and there is no rule, no hour and no refusal. Italian trade writing calls the story of the barista who says no «a travellers' legend», and the digestive reasoning behind the habit is belief rather than physiology. What Italians do is simply not order one. Order what you want, and know the convention exists — that is a different thing from obeying it."
       },
       {
         "titulo": "Standing is the format",
@@ -252,6 +252,32 @@
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i02-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-cappuccino",
+      "afirmacao": "The rule that cappuccino cannot be ordered after 11 is a habit, not a prohibition. The digestive reasoning behind it is a cultural belief rather than a physiological finding, there is no precise hour — the real line is «after breakfast» — and Italian trade sources describe the flat refusal by a barista as «una leggenda da viaggiatori», a travellers' legend. What Italians actually do is not order one.",
+      "fonte": "Pasqualini il Caffè — «Il cappuccino dopo le 11: regola, mito o snobismo tutto italiano»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i02-n05"
+      ]
+    },
+    {
+      "id": "it-cassa-prima",
+      "afirmacao": "Requiring payment before consumption at a bar is lawful: bars, pastry shops and gelaterie may demand payment at the cassa first, and the receipt records the payment rather than the delivery of the service. Both systems coexist — pay-first is common in busy urban bars, especially in the north, while smaller towns tend to order first and pay on leaving. The tell is a printed sign asking for the scontrino to be made at the till before consuming.",
+      "fonte": "Cookist — «Ricevuta prima di andare al banco: i bar possono chiedere il pagamento anticipato?»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i02-n04"
       ]
     }
   ]

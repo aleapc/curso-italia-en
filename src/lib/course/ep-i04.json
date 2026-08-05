@@ -223,7 +223,7 @@
       },
       {
         "titulo": "The buffet version is a Milanese habit",
-        "corpo": "The generous spread often called apericena is strongest in Milan and the north and much less common further south, where aperitivo stays small and dinner follows. Assuming either one nationally is how people end up either hungry or over-full."
+        "corpo": "The generous spread is properly called apericena — a word Treccani defines as an aperitivo with enough food to replace dinner. It is a northern coinage from the late nineties and it is strongest in Milan. That it stays smaller in the south is what everyone says and what no survey measures, so treat it as a tendency rather than a border."
       },
       {
         "titulo": "Rounds and the refusal",
@@ -248,6 +248,32 @@
       "oQueMelhora": "You either stop looking for a restaurant at nine or you stop filling up on a buffet an hour before dinner — both of which are decided by one question.",
       "ondeNaoVale": "Not a rule that everything on the counter is free — in some places the buffet is a separate paid item, and the size of what is included varies sharply between north and south.",
       "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-aperitivo-mercato",
+      "afirmacao": "Aperitivo is a large, measured market: FIPE-Confcommercio, on TradeLab data, counts 14 million Italians, 507 million evening aperitivi a year and about EUR 4 billion of spending, down 3.2% from 2024 to 2025; aperitivo accounts for 14% of all bar visits. Price varies enormously by city — a 2025 survey of Aperol Spritz found Milan EUR 10.33 against Naples EUR 2.00, with Rome EUR 7.00 and Venice EUR 4.50.",
+      "fonte": "FIPE-Confcommercio / TradeLab — «Come sta cambiando l'aperitivo», 12 maggio 2026; idealo — rilevazione prezzi Aperol Spritz 2025",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    },
+    {
+      "id": "it-apericena",
+      "afirmacao": "Apericena is a distinct format, not a synonym for aperitivo: the Treccani dictionary defines it as an aperitivo served with a rich series of snacks and tastings of savoury and sweet dishes «which can be consumed in place of dinner». It is a northern, Milanese coinage from the late 1990s and the word itself is treated as a neologism. The claim that the format stays smaller in the south is widely asserted but not quantified in any survey found.",
+      "fonte": "Vocabolario Treccani — «apericena»; Libreriamo — «origine della parola macedonia»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
       "audioKeys": [
         "it-i04-n02"
       ]

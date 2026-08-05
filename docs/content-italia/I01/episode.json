@@ -11,31 +11,233 @@
   "decisao": "esperar até as oito e meia e jantar onde os locais jantam, em vez de comer às seis na casa que só vive de turista",
   "moldes": [],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i01-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Italy runs on a later clock than most visitors arrive with, and the gap between the two is where the tourist trap lives." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i01-r01", "receptivo": true, "acao": "Note the hour and come back then. Do not sit down two hours early somewhere else.", "es": "La cucina apre alle otto. Prima solo aperitivo.", "pt": "The kitchen opens at eight. Before that, only aperitivo.", "tts": "La cucina apre alle otto. Prima solo aperitivo." },
-    { "consulta": ["comer/horario"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i01-p01", "promptPt": "Ask what time the kitchen opens. Speak now.", "audioKey": "it-i01-t01", "es": "A che ora apre la cucina?", "pinyin": "a keh O-ra A-pre la koo-CHEE-na", "pt": "What time does the kitchen open?", "tts": "A che ora apre la cucina?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i01-n02", "bloco": "corpo", "pt": "Dinner service generally starts around half seven or eight, later in the south, and the room fills after nine rather than at opening." },
-    { "consulta": ["comer/reserva"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i01-p02", "promptPt": "Book a table for the hour locals eat, not the hour you are hungry. Speak now.", "audioKey": "it-i01-t02", "es": "Un tavolo per due alle nove, è possibile?", "pinyin": "oon TA-vo-lo per DOO-eh AL-le NO-ve, eh pos-SEE-bee-le", "pt": "A table for two at nine, is that possible?", "tts": "Un tavolo per due alle nove, è possibile?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i01-n03", "pt": "So what do you do with the two hours? What everyone else does: the aperitivo you learned in the last part." },
-    { "consulta": ["comer/horario"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i01-p03", "promptPt": "Lunch has its own window. Ask until when they serve it. Speak now.", "audioKey": "it-i01-t03", "es": "Fino a che ora si pranza?", "pinyin": "FEE-no a keh O-ra see PRAN-tsa", "pt": "Until what time do you serve lunch?", "tts": "Fino a che ora si pranza?" },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i01-r02", "receptivo": true, "acao": "Half past two is the hard edge. After it the kitchen is closed, not slow.", "es": "Fino alle due e mezza. Poi la cucina chiude.", "pt": "Until half past two. Then the kitchen closes.", "tts": "Fino alle due e mezza. Poi la cucina chiude." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i01-n04", "bloco": "capsula", "pt": "A place serving full dinners at six in a tourist centre is not wrong. It is telling you who its customers are." },
-    { "consulta": ["comer/escolher"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i01-p04", "promptPt": "Ask someone local where they eat, not where you should eat. Speak now.", "audioKey": "it-i01-t04", "es": "Lei dove va a mangiare la sera?", "pinyin": "lay DO-ve va a man-JA-re la SE-ra", "pt": "Where do you go to eat in the evening?", "tts": "Lei dove va a mangiare la sera?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i01-n05", "pt": "That wording matters. Where should I eat gets you the tourist answer; where do you eat gets you the other one." },
-    { "consulta": ["comer/reserva"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i01-p05", "promptPt": "Ask whether you need to book at all. Speak now.", "audioKey": "it-i01-t05", "es": "Bisogna prenotare?", "pinyin": "bee-ZO-nya pre-no-TA-re", "pt": "Do we need to book?", "tts": "Bisogna prenotare?" },
-    { "consulta": ["comer/horario"], "tipo": "responde", "voz": "target_it_f", "molde": "C-E", "encaixe": "un posto senza prenotazione", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i01-p06", "promptPt": "You did not book and it is nine o'clock. Ask, using the frame from B08. Speak now.", "audioKey": "it-i01-t06", "es": "C'è un posto senza prenotazione?", "pinyin": "cheh oon POS-to SEN-tsa pre-no-ta-TSYO-ne", "pt": "Is there a place without a booking?", "tts": "C'è un posto senza prenotazione?" },
-    { "consulta": ["comer/horario"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i01-p07", "promptPt": "It is late and you want to know if you still have time. Speak now.", "audioKey": "it-i01-t07", "es": "Siamo ancora in tempo per mangiare?", "pinyin": "SYA-mo an-KO-ra een TEM-po per man-JA-re", "pt": "Are we still in time to eat?", "tts": "Siamo ancora in tempo per mangiare?" },
-    { "consulta": ["comer/reserva"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i01-p08", "promptPt": "Book for tomorrow while you are standing there. Speak now.", "audioKey": "it-i01-t08", "es": "Allora prenoto per domani sera.", "pinyin": "al-LO-ra pre-NO-to per do-MA-nee SE-ra", "pt": "Then I'll book for tomorrow evening.", "tts": "Allora prenoto per domani sera." },
-    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i01-s01", "es": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?", "pinyin": "a keh O-ra A-pre la koo-CHEE-na. oon TA-vo-lo per DOO-eh AL-le NO-ve eh pos-SEE-bee-le. lay DO-ve va a man-JA-re la SE-ra", "pt": "Shadow the three questions that fix your evening.", "tts": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i01-n06", "bloco": "recap", "pt": "I01 done. Kitchen hours, a table at nine, and lei dove va — the wording that gets the real answer." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Italy runs on a later clock than most visitors arrive with, and the gap between the two is where the tourist trap lives."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i01-r01",
+      "receptivo": true,
+      "acao": "Note the hour and come back then. Do not sit down two hours early somewhere else.",
+      "es": "La cucina apre alle otto. Prima solo aperitivo.",
+      "pt": "The kitchen opens at eight. Before that, only aperitivo.",
+      "tts": "La cucina apre alle otto. Prima solo aperitivo."
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p01",
+      "promptPt": "Ask what time the kitchen opens. Speak now.",
+      "audioKey": "it-i01-t01",
+      "es": "A che ora apre la cucina?",
+      "pinyin": "a keh O-ra A-pre la koo-CHEE-na",
+      "pt": "What time does the kitchen open?",
+      "tts": "A che ora apre la cucina?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "apre la cucina"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i01-n02",
+      "bloco": "corpo",
+      "pt": "Dinner service generally starts around half seven or eight, later in the south, and the room fills after nine rather than at opening."
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p02",
+      "promptPt": "Book a table for the hour locals eat, not the hour you are hungry. Speak now.",
+      "audioKey": "it-i01-t02",
+      "es": "Un tavolo per due alle nove, è possibile?",
+      "pinyin": "oon TA-vo-lo per DOO-eh AL-le NO-ve, eh pos-SEE-bee-le",
+      "pt": "A table for two at nine, is that possible?",
+      "tts": "Un tavolo per due alle nove, è possibile?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n03",
+      "pt": "So what do you do with the two hours? What everyone else does: the aperitivo you learned in the last part."
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p03",
+      "promptPt": "Lunch has its own window. Ask until when they serve it. Speak now.",
+      "audioKey": "it-i01-t03",
+      "es": "Fino a che ora si pranza?",
+      "pinyin": "FEE-no a keh O-ra see PRAN-tsa",
+      "pt": "Until what time do you serve lunch?",
+      "tts": "Fino a che ora si pranza?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "si pranza"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i01-r02",
+      "receptivo": true,
+      "acao": "Half past two is the hard edge. After it the kitchen is closed, not slow.",
+      "es": "Fino alle due e mezza. Poi la cucina chiude.",
+      "pt": "Until half past two. Then the kitchen closes.",
+      "tts": "Fino alle due e mezza. Poi la cucina chiude."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i01-n04",
+      "bloco": "capsula",
+      "pt": "A place serving full dinners at six in a tourist centre is not wrong. It is telling you who its customers are."
+    },
+    {
+      "consulta": [
+        "comer/escolher"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p04",
+      "promptPt": "Ask someone local where they eat, not where you should eat. Speak now.",
+      "audioKey": "it-i01-t04",
+      "es": "Lei dove va a mangiare la sera?",
+      "pinyin": "lay DO-ve va a man-JA-re la SE-ra",
+      "pt": "Where do you go to eat in the evening?",
+      "tts": "Lei dove va a mangiare la sera?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n05",
+      "pt": "That wording matters. Where should I eat gets you the tourist answer; where do you eat gets you the other one."
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p05",
+      "promptPt": "Ask whether you need to book at all. Speak now.",
+      "audioKey": "it-i01-t05",
+      "es": "Bisogna prenotare?",
+      "pinyin": "bee-ZO-nya pre-no-TA-re",
+      "pt": "Do we need to book?",
+      "tts": "Bisogna prenotare?"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un posto senza prenotazione",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p06",
+      "promptPt": "You did not book and it is nine o'clock. Ask, using the frame from B08. Speak now.",
+      "audioKey": "it-i01-t06",
+      "es": "C'è un posto senza prenotazione?",
+      "pinyin": "cheh oon POS-to SEN-tsa pre-no-ta-TSYO-ne",
+      "pt": "Is there a place without a booking?",
+      "tts": "C'è un posto senza prenotazione?"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p07",
+      "promptPt": "It is late and you want to know if you still have time. Speak now.",
+      "audioKey": "it-i01-t07",
+      "es": "Siamo ancora in tempo per mangiare?",
+      "pinyin": "SYA-mo an-KO-ra een TEM-po per man-JA-re",
+      "pt": "Are we still in time to eat?",
+      "tts": "Siamo ancora in tempo per mangiare?"
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p08",
+      "promptPt": "Book for tomorrow while you are standing there. Speak now.",
+      "audioKey": "it-i01-t08",
+      "es": "Allora prenoto per domani sera.",
+      "pinyin": "al-LO-ra pre-NO-to per do-MA-nee SE-ra",
+      "pt": "Then I'll book for tomorrow evening.",
+      "tts": "Allora prenoto per domani sera."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i01-s01",
+      "es": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?",
+      "pinyin": "a keh O-ra A-pre la koo-CHEE-na. oon TA-vo-lo per DOO-eh AL-le NO-ve eh pos-SEE-bee-le. lay DO-ve va a man-JA-re la SE-ra",
+      "pt": "Shadow the three questions that fix your evening.",
+      "tts": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?",
+      "molde": "C-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n06",
+      "bloco": "recap",
+      "pt": "I01 done. Kitchen hours, a table at nine, and lei dove va — the wording that gets the real answer."
+    }
   ],
   "aprofundar": {
     "titulo": "Two clocks, one gap",
     "secoes": [
-      { "titulo": "The lunch window is narrow", "corpo": "Kitchens generally serve lunch from around half twelve to half two and then stop entirely. Arriving at three expecting a full meal is the single most common way visitors end up eating badly.", "exemplos": [{ "es": "Fino a che ora si pranza?", "pt": "Until what time do you serve lunch?" }, { "es": "Siamo ancora in tempo per mangiare?", "pt": "Are we still in time to eat?" }] },
-      { "titulo": "Dinner starts later going south", "corpo": "In the north a kitchen may open at half seven; in the south nine is ordinary and the room can fill at ten. Judging a place by how empty it looks at eight will mislead you almost everywhere in Italy." },
-      { "titulo": "The six o'clock signal", "corpo": "A full dinner service at six in a central tourist area is not a scam, it is a business decision about who walks past. It usually comes with a multilingual menu and photographs, which is the same signal repeated." },
-      { "titulo": "The wording of the question", "corpo": "Dove dovrei mangiare invites a recommendation calibrated for a visitor. Lei dove va a mangiare asks about their own life and produces a different list, usually further from the centre and cheaper." }
+      {
+        "titulo": "The lunch window is narrow",
+        "corpo": "Kitchens generally serve lunch from around half twelve to half two and then stop entirely. Arriving at three expecting a full meal is the single most common way visitors end up eating badly.",
+        "exemplos": [
+          {
+            "es": "Fino a che ora si pranza?",
+            "pt": "Until what time do you serve lunch?"
+          },
+          {
+            "es": "Siamo ancora in tempo per mangiare?",
+            "pt": "Are we still in time to eat?"
+          }
+        ]
+      },
+      {
+        "titulo": "Dinner starts later going south",
+        "corpo": "In the north a kitchen may open at half seven; in the south nine is ordinary and the room can fill at ten. Worth being honest about the status of these numbers: opening hours were fully deregulated in 2011, so none of this is a rule, and no national survey of when Italians actually sit down was findable. It is a well-reported convention, not a measurement — which is exactly why the part teaches you to ask rather than to memorise a clock."
+      },
+      {
+        "titulo": "The six o'clock signal",
+        "corpo": "A full dinner service at six in a central tourist area is not a scam, it is a business decision about who walks past. It usually comes with a multilingual menu and photographs, which is the same signal repeated."
+      },
+      {
+        "titulo": "The wording of the question",
+        "corpo": "Dove dovrei mangiare invites a recommendation calibrated for a visitor. Lei dove va a mangiare asks about their own life and produces a different list, usually further from the centre and cheaper."
+      }
     ]
   },
   "slot": "I01",
@@ -51,7 +253,23 @@
       "oQueMelhora": "You stop selecting restaurants by which ones are full of people on a foreign schedule, which is a filter that reliably picks the wrong ones.",
       "ondeNaoVale": "Not at lunch, where a full room genuinely is a good sign because the window is narrow and everyone eats within the same two hours — and not in a place that is empty at ten.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["it-i01-n02"]
+      "audioKeys": [
+        "it-i01-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-orari-liberalizzati",
+      "afirmacao": "There is no legally fixed dinner hour in Italy: opening and closing times for commercial and food-service businesses were fully liberalised by Art. 31 of D.L. 201/2011, converted into L. 214/2011, applying nationwide without regional implementation. The hours taught in this part are therefore convention rather than rule, and no Istat or trade survey of average dinner start times was locatable — the north-south gradient is widely reported but not measured.",
+      "fonte": "Camera dei Deputati — dossier «Disciplina degli orari di apertura degli esercizi commerciali»; D.L. 201/2011 conv. L. 214/2011",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i01-n02"
+      ]
     }
   ]
 }
