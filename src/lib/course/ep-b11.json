@@ -1,0 +1,300 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "4B",
+  "titulo": "Quanto costa — two words, asked while asking is still free",
+  "subtitulo": "Standing at the bar and sitting at the table are two different prices for the same coffee, and both are legal",
+  "cena": "You are two steps inside a bar in a famous square, the coffee is already made, and nobody has mentioned that sitting down changes the price.",
+  "moldura": "ganha",
+  "frasePiso": "Ask the price before the thing exists, not after it is in your hand.",
+  "moldes": [
+    "QUANTO-COSTA"
+  ],
+  "clique": {
+    "contagem": [
+      "the bar",
+      "the table",
+      "the market stall"
+    ],
+    "desconto": "Nobody warned you about the second price. You found it yourself, with one question asked half a second before it stopped being askable.",
+    "piso": "Next time a price feels assumed rather than stated, you will not wait to be told. You will ask, in two words, while it is still free to ask."
+  },
+  "fatosDatados": [
+    {
+      "id": "it-banco-tavolo",
+      "afirmacao": "Italian bars are legally allowed to charge two different prices for the same item depending on whether it is consumed standing at the counter (al banco) or served at a table (al tavolo), provided both tariffs are displayed. In central tourist squares the seated price can be several times the counter price; the standing price of a plain espresso in Italy averaged around €1,20-€1,30 in 2025.",
+      "fonte": "Assoutenti — rilevazione prezzi caffè 2025; Il Sole 24 Ore — «Caffè al banco, il listino dei capoluoghi»",
+      "ano": 2025,
+      "revisarAte": "2027-02-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-b11-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b11-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The first round is where prices stop being obvious. There are two legal prices, and nobody says which one you picked."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b11-n02",
+      "bloco": "molde",
+      "pt": "The frame is quanto costa, plus the thing. How much is — and then whatever you are about to commit to."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b11-t01",
+      "es": "Quanto costa un caffè al tavolo?",
+      "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo",
+      "pt": "How much is a coffee at the table?",
+      "tts": "Quanto costa un caffè al tavolo?"
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "un caffè al tavolo",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b11-p01",
+      "promptPt": "You are about to sit down in a famous square. Ask first. Speak now.",
+      "audioKey": "it-b11-t01",
+      "es": "Quanto costa un caffè al tavolo?",
+      "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo",
+      "pt": "How much is a coffee at the table?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b11-r01",
+      "es": "Al tavolo sono sei euro, al banco uno e trenta.",
+      "pt": "At the table it's six euros, at the counter one thirty.",
+      "tts": "Al tavolo sono sei euro, al banco uno e trenta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b11-n03",
+      "bloco": "corpo",
+      "pt": "That gap is legal, and both tariffs must be displayed. You are choosing, whether you know it or not."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "al banco",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b11-p02",
+      "promptPt": "Now ask the counter price, the other half of the choice. Speak now.",
+      "audioKey": "it-b11-t02",
+      "es": "E al banco, quanto costa?",
+      "pinyin": "eh al BAN-ko, KWAN-to KOS-ta",
+      "pt": "And at the counter, how much is it?",
+      "tts": "E al banco, quanto costa?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b11-n04",
+      "pt": "Un caffè means an espresso. If you want the long one, say caffè lungo — otherwise you get the small strong one."
+    },
+    {
+      "consulta": [
+        "comer/bebida",
+        "pedir/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b11-p03",
+      "promptPt": "Order at the counter: a coffee and a glass of water. Speak now.",
+      "audioKey": "it-b11-t03",
+      "es": "Un caffè e un bicchiere d'acqua, per favore.",
+      "pinyin": "oon kaf-FEH eh oon beek-kee-EH-re DAK-kwa per fa-VO-re",
+      "pt": "A coffee and a glass of water, please.",
+      "tts": "Un caffè e un bicchiere d'acqua, per favore."
+    },
+    {
+      "consulta": [
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "in tutto",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b11-p04",
+      "promptPt": "Two things, one total. Ask for the whole amount. Speak now.",
+      "audioKey": "it-b11-t04",
+      "es": "Quanto costa in tutto?",
+      "pinyin": "KWAN-to KOS-ta een TOOT-to",
+      "pt": "How much is it all together?",
+      "tts": "Quanto costa in tutto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b11-r02",
+      "receptivo": true,
+      "es": "Sono due e cinquanta. Prima paghi alla cassa.",
+      "pt": "That's two fifty. You pay at the till first.",
+      "tts": "Sono due e cinquanta. Prima paghi alla cassa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b11-n05",
+      "bloco": "capsula",
+      "pt": "In many bars you pay at the till first and take the receipt to the counter. If someone points at the cassa, that is what is happening."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un tavolo fuori",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b11-p05",
+      "promptPt": "You have decided the table is worth it. Ask about one outside. Speak now.",
+      "audioKey": "it-b11-t05",
+      "es": "C'è un tavolo fuori?",
+      "pinyin": "cheh oon TA-vo-lo FWO-ri",
+      "pt": "Is there a table outside?",
+      "tts": "C'è un tavolo fuori?"
+    },
+    {
+      "consulta": [
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "questo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b11-p06",
+      "promptPt": "At a market stall, pointing at something with no price tag. Speak now.",
+      "audioKey": "it-b11-t06",
+      "es": "Quanto costa questo?",
+      "pinyin": "KWAN-to KOS-ta KWES-to",
+      "pt": "How much is this?",
+      "tts": "Quanto costa questo?"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "pagare qui",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b11-p07",
+      "promptPt": "You are unsure whether to pay here or at the till. Ask. Speak now.",
+      "audioKey": "it-b11-t07",
+      "es": "Posso pagare qui?",
+      "pinyin": "POS-so pa-GA-re kwee",
+      "pt": "Can I pay here?",
+      "tts": "Posso pagare qui?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b11-p08",
+      "promptPt": "Ask for the receipt, which the bar has to give you anyway. Speak now.",
+      "audioKey": "it-b11-t08",
+      "es": "Lo scontrino, per favore.",
+      "pinyin": "lo skon-TREE-no per fa-VO-re",
+      "pt": "The receipt, please.",
+      "tts": "Lo scontrino, per favore."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b11-s01",
+      "es": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?",
+      "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo. eh al BAN-ko KWAN-to KOS-ta. KWAN-to KOS-ta een TOOT-to",
+      "pt": "Shadow the same two words across three different commitments.",
+      "tts": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b11-n06",
+      "bloco": "recap",
+      "pt": "B11 done. Quanto costa covers the table, the counter, the total and the stall — before you commit."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Two prices, both legal",
+    "secoes": [
+      {
+        "titulo": "Quanto costa plus the thing",
+        "corpo": "Keep the two words and change what follows: an item, a place, a total. It is the cheapest insurance in the course because asking is free and finding out afterwards is not.",
+        "exemplos": [
+          {
+            "es": "Quanto costa questo?",
+            "pt": "How much is this?"
+          },
+          {
+            "es": "Quanto costa in tutto?",
+            "pt": "How much is it all together?"
+          }
+        ]
+      },
+      {
+        "titulo": "Al banco and al tavolo",
+        "corpo": "Standing at the counter is the everyday Italian ritual: order, drink, leave, a couple of minutes total. Sitting is a different product — you are renting the chair and the square, and the price says so."
+      },
+      {
+        "titulo": "The gap is displayed, not hidden",
+        "corpo": "Bars must show both tariffs. In central squares the seated price can be several times the standing one, and in ordinary neighbourhood bars the difference is often small or none. The variable is the location, not the honesty."
+      },
+      {
+        "titulo": "Pay first, then order",
+        "corpo": "In many bars you pay at the cassa and carry the scontrino to the counter. Watching what the person ahead of you does answers this faster than any question."
+      }
+    ]
+  },
+  "slot": "B11",
+  "permissao": "You are allowed to ask the price of a coffee. Nobody in Italy thinks asking quanto costa is small or suspicious — the only awkward version of this moment is the one where you did not ask and then react to the bill.",
+  "permissaoAudioKey": "it-b11-n01",
+  "espelho": "Anyone who has been handed a bill for a hotel minibar water knows this exact shape: the price was available, you just never asked, and asking after the fact feels worse than asking before. Italy did not invent this — it just made it a daily choice.",
+  "fichasCulturais": [
+    {
+      "sinal": "You sit at an outside table in a famous square, order the same espresso you had standing yesterday, and the bill is four or five times higher.",
+      "suaLeitura": "They charged the tourist price because they heard my accent.",
+      "oQueEAli": "Italian bars may legally list two tariffs, al banco and al tavolo, for the same item, as long as both are displayed. The seated price buys the table and the view; in a central square that is genuinely what it costs.",
+      "oQueVoceFaz": "Decide which product you want before you sit. If you want the coffee, take it standing at the counter; if you want the square, sit and treat the price as rent.",
+      "oQueMelhora": "The gap stops feeling like a trick and becomes a choice you are making, which is also the only version of it you can control.",
+      "ondeNaoVale": "Not a claim that every difference is legitimate — a table charge that appears on the bill without being displayed anywhere is a different matter, and the scontrino is what lets you raise it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b11-n03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "b14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "5B",
+  "titulo": "Mi porta — the bill, and the two lines on it that are not mistakes",
+  "subtitulo": "Coperto and servizio are legitimate when they are declared, tipping is not expected, and the receipt is a legal obligation",
+  "cena": "The bill has two lines you did not order and a total that does not match the arithmetic you were doing in your head.",
+  "moldura": "protege",
+  "frasePiso": "Ask for the bill, read the two lines, and take the receipt. That is the whole defence.",
+  "moldes": ["MI-PORTA"],
+  "clique": {
+    "contagem": ["the trattoria", "the bar", "the pizzeria"],
+    "desconto": "Nobody gave you a separate sentence for each thing you needed brought to the table. One frame carried the bill, the water and the check.",
+    "piso": "Next time a bill has a line you do not recognise, you will not pay in silence and complain outside. You will ask what it is, at the table, while it can still be answered."
+  },
+  "fatosDatados": [
+    {
+      "id": "it-coperto-servizio",
+      "afirmacao": "The coperto (cover charge) is not required by law but is lawful when clearly indicated on the menu; a servizio charge, typically 10-20%, is likewise lawful when displayed in advance. Tipping on top is not expected in Italy. Issuing a scontrino fiscale or fattura is a legal obligation for the business on every transaction.",
+      "fonte": "Altroconsumo — «Coperto e servizio: quando si possono chiedere»; Agenzia delle Entrate — obbligo di certificazione dei corrispettivi",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["it-b14-n04"]
+    }
+  ],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b14-n01", "gesto": 1, "bloco": "aquecimento", "pt": "The end of a meal has one sentence and two lines of reading. Get both right and the bill stops being a surprise." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b14-n02", "bloco": "molde", "pt": "The frame is mi porta, plus the thing. Bring me — and then whatever you want at the table." },
+    { "tipo": "ouvir", "voz": "target_it_f", "audioKey": "it-b14-t01", "es": "Mi porta il conto, per favore?", "pinyin": "mee POR-ta eel KON-to per fa-VO-re", "pt": "Could you bring me the bill, please?", "tts": "Mi porta il conto, per favore?" },
+    { "consulta": ["pagar/conta"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PORTA", "encaixe": "il conto", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b14-p01", "promptPt": "You are ready to go. Ask for the bill. Speak now.", "audioKey": "it-b14-t01", "es": "Mi porta il conto, per favore?", "pinyin": "mee POR-ta eel KON-to per fa-VO-re", "pt": "Could you bring me the bill, please?" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b14-n03", "bloco": "corpo", "pt": "The bill does not arrive on its own here. Staying at the table after the plates are gone is normal, so you have to ask." },
+    { "consulta": ["comer/bebida", "mesa/pedido"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PORTA", "encaixe": "dell'acqua", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b14-p02", "promptPt": "Same frame, mid-meal: ask for some water. Speak now.", "audioKey": "it-b14-t02", "es": "Mi porta dell'acqua, per favore?", "pinyin": "mee POR-ta del-LAK-kwa per fa-VO-re", "pt": "Could you bring me some water, please?", "tts": "Mi porta dell'acqua, per favore?" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b14-n04", "bloco": "capsula", "pt": "Two lines to read: coperto, the cover charge, and servizio. Both are legal when the menu declared them." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b14-r01", "receptivo": true, "es": "Coperto due euro a persona, servizio dieci per cento.", "pt": "Cover charge two euros per person, service ten percent.", "tts": "Coperto due euro a persona, servizio dieci per cento." },
+    { "consulta": ["pagar/conta", "pagar/preco"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b14-p03", "promptPt": "There is a line you do not recognise. Ask what it is, at the table. Speak now.", "audioKey": "it-b14-t03", "es": "Scusi, cos'è questa voce?", "pinyin": "SKOO-zee, ko-ZEH KWES-ta VO-che", "pt": "Sorry, what is this item?", "tts": "Scusi, cos'è questa voce?" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b14-n05", "pt": "If servizio is already on the bill, you are done. Tipping on top is not expected in Italy — rounding up is plenty." },
+    { "consulta": ["pagar/cartao"], "tipo": "responde", "voz": "target_it_f", "molde": "POSSO", "encaixe": "pagare con la carta", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b14-p04", "promptPt": "Check the payment method before they walk away. Speak now.", "audioKey": "it-b14-t04", "es": "Posso pagare con la carta?", "pinyin": "POS-so pa-GA-re kon la KAR-ta", "pt": "Can I pay by card?", "tts": "Posso pagare con la carta?" },
+    { "consulta": ["pagar/dividir"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b14-p05", "promptPt": "You are two and want to split it. Ask. Speak now.", "audioKey": "it-b14-t05", "es": "Possiamo pagare separatamente?", "pinyin": "pos-see-A-mo pa-GA-re se-pa-ra-ta-MEN-te", "pt": "Can we pay separately?", "tts": "Possiamo pagare separatamente?" },
+    { "consulta": ["pagar/recibo"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PORTA", "encaixe": "lo scontrino", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b14-p06", "promptPt": "Ask for the receipt — they are legally obliged to issue it. Speak now.", "audioKey": "it-b14-t06", "es": "Mi porta lo scontrino, per favore?", "pinyin": "mee POR-ta lo skon-TREE-no per fa-VO-re", "pt": "Could you bring me the receipt, please?", "tts": "Mi porta lo scontrino, per favore?" },
+    { "consulta": ["pagar/conta"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b14-p07", "promptPt": "The total does not match. Say so calmly and ask them to check. Speak now.", "audioKey": "it-b14-t07", "es": "Può controllare il totale, per favore?", "pinyin": "pwoh kon-trol-LA-re eel to-TA-le per fa-VO-re", "pt": "Could you check the total, please?", "tts": "Può controllare il totale, per favore?" },
+    { "consulta": ["simpatia/agradecer", "pagar/conta"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b14-p08", "promptPt": "Round up and close it warmly. Speak now.", "audioKey": "it-b14-t08", "es": "Va bene così, grazie.", "pinyin": "va BEH-ne ko-ZEE, GRA-tsee-eh", "pt": "Keep the change, thank you.", "tts": "Va bene così, grazie." },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-b14-s01", "es": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?", "pinyin": "mee POR-ta eel KON-to. SKOO-zee ko-ZEH KWES-ta VO-che. mee POR-ta lo skon-TREE-no per fa-VO-re", "pt": "Shadow the close: ask, read, take the receipt.", "tts": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?" },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-b14-n06", "bloco": "recap", "pt": "B14 done. Mi porta brings anything to the table, coperto and servizio are legal when declared, and the scontrino is owed to you." }
+  ],
+  "aprofundar": {
+    "titulo": "Reading the bill",
+    "secoes": [
+      { "titulo": "Mi porta plus the thing", "corpo": "The bill, water, bread, the receipt. It is the polite request form for anything that has to physically arrive at your table.", "exemplos": [{ "es": "Mi porta il conto, per favore?", "pt": "Could you bring me the bill?" }, { "es": "Mi porta lo scontrino?", "pt": "Could you bring me the receipt?" }] },
+      { "titulo": "Coperto is not a scam", "corpo": "It is a per-person cover charge, not required by law but lawful when the menu declares it. A coperto that appears nowhere on the menu is the version worth questioning — which is why you read the menu before you sit." },
+      { "titulo": "Servizio replaces the tip", "corpo": "When a service charge is on the bill, that is the service being paid for. Italy does not run on tipping, and adding a further ten or fifteen percent is a foreign habit rather than a local expectation. Rounding up is normal and enough." },
+      { "titulo": "The scontrino is the law", "corpo": "Issuing a fiscal receipt is a legal obligation for the business, not a courtesy to you. It is also the only document that lets you dispute anything afterwards, which is why you take it even when you are not disputing." }
+    ]
+  },
+  "slot": "B14",
+  "permissao": "You are allowed to ask what a line on the bill is. Pointing at an item and asking cos'è questa voce is an ordinary question with an ordinary answer, and asking at the table is much easier than working it out on the street afterwards.",
+  "permissaoAudioKey": "it-b14-n05",
+  "espelho": "Anyone who has scanned a restaurant bill at home, spotted something odd, and paid it anyway to avoid a scene knows the real obstacle here. It was never the language — it was the reluctance to slow the moment down by ten seconds.",
+  "fichasCulturais": [
+    {
+      "sinal": "The plates are cleared, nobody brings the bill, and the table stays yours while the waiter passes by repeatedly without stopping.",
+      "suaLeitura": "We are being ignored, or they have forgotten us.",
+      "oQueEAli": "Bringing an unrequested bill would be hurrying you out. The table is yours until you signal otherwise, and the signal is asking. What looks like neglect is the room leaving you alone on purpose.",
+      "oQueVoceFaz": "Catch the waiter's eye and say mi porta il conto, per favore? — that is the whole signal.",
+      "oQueMelhora": "You stop waiting for something that was never going to arrive on its own, and you get the unhurried end of the meal the room was offering.",
+      "ondeNaoVale": "Not in a bar or a self-service place where you pay at the till, and not at a busy lunch counter where turnover is the point and the bill arrives fast.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-b14-n03"]
+    }
+  ]
+}
