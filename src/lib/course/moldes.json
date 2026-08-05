@@ -39,9 +39,26 @@
       "tipo": "aberto",
       "tipoBuraco": "acao",
       "casa": "B06",
-      "redisparos": ["B10", "B11", "B15", "B18", "I09"],
-      "tiles": ["pagar", "compras", "quarto", "chegar"],
-      "exemplos": ["pagare con la carta", "lasciare la valigia", "sedermi qui", "provarlo", "entrare"],
+      "redisparos": [
+        "B10",
+        "B11",
+        "B15",
+        "B18",
+        "I09"
+      ],
+      "tiles": [
+        "pagar",
+        "compras",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "pagare con la carta",
+        "lasciare la valigia",
+        "sedermi qui",
+        "provarlo",
+        "entrare"
+      ],
       "nota": "O de maior alcance do SKU. Cobre a categoria de improviso mais comum do viajante — «isso aqui pode?» — que existe porque as regras mudam de cidade para cidade."
     },
     {
@@ -52,9 +69,22 @@
       "tipo": "aberto",
       "tipoBuraco": "lugar",
       "casa": "B07",
-      "redisparos": ["B08", "B09", "B17"],
-      "tiles": ["chegar", "transporte", "saude"],
-      "exemplos": ["il bagno", "la stazione", "il binario", "la farmacia di turno", "l'uscita"],
+      "redisparos": [
+        "B09",
+        "B17"
+      ],
+      "tiles": [
+        "chegar",
+        "transporte",
+        "saude"
+      ],
+      "exemplos": [
+        "il bagno",
+        "la stazione",
+        "il binario",
+        "la farmacia di turno",
+        "l'uscita"
+      ],
       "nota": "Entra amarrado à escotilha de reparo (È lontano? + Me lo scrive?): o problema desta cena é a RESPOSTA, não a pergunta."
     },
     {
@@ -65,9 +95,23 @@
       "tipo": "aberto",
       "tipoBuraco": "coisa",
       "casa": "B08",
-      "redisparos": ["B11", "B16", "I03"],
-      "tiles": ["chegar", "mesa", "quarto"],
-      "exemplos": ["il wifi", "una farmacia qui vicino", "un tavolo", "una camera più silenziosa", "un altro treno"],
+      "redisparos": [
+        "B11",
+        "B16",
+        "I03"
+      ],
+      "tiles": [
+        "chegar",
+        "mesa",
+        "quarto"
+      ],
+      "exemplos": [
+        "il wifi",
+        "una farmacia qui vicino",
+        "un tavolo",
+        "una camera più silenziosa",
+        "un altro treno"
+      ],
       "nota": "Substitui um vocabulário inteiro de perguntas por uma só e a resposta é binária — cabe na cabeça sob estresse. O plural «ci sono» aparece nos exemplos sem virar entrada própria."
     },
     {
@@ -78,9 +122,24 @@
       "tipo": "aberto",
       "tipoBuraco": "acao",
       "casa": "B03",
-      "redisparos": ["B04", "B14", "B17"],
-      "tiles": ["reparo", "pagar", "saude"],
-      "exemplos": ["ripetere più lentamente", "scrivere", "mostrare sulla mappa", "portare il conto", "consigliare qualcosa"],
+      "redisparos": [
+        "B04",
+        "B08",
+        "B14",
+        "B17"
+      ],
+      "tiles": [
+        "reparo",
+        "pagar",
+        "saude"
+      ],
+      "exemplos": [
+        "ripetere più lentamente",
+        "scrivere",
+        "mostrare sulla mappa",
+        "portare il conto",
+        "consigliare qualcosa"
+      ],
       "nota": "É o POSSO no espelho e custa meia unidade de ensino. Carrega o kit anti-pânico (Me lo può scrivere?), a ferramenta de reparo mais usada do curso."
     },
     {
@@ -91,9 +150,22 @@
       "tipo": "aberto",
       "tipoBuraco": "coisa",
       "casa": "B11",
-      "redisparos": ["B15", "I10"],
-      "tiles": ["mesa", "compras", "pagar"],
-      "exemplos": ["al banco", "al tavolo", "questo", "la camera", "il biglietto"],
+      "redisparos": [
+        "B15",
+        "I10"
+      ],
+      "tiles": [
+        "mesa",
+        "compras",
+        "pagar"
+      ],
+      "exemplos": [
+        "al banco",
+        "al tavolo",
+        "questo",
+        "la camera",
+        "il biglietto"
+      ],
       "nota": "Casa em B11 e não numa parte de compras porque é no BAR que ele paga a conta mais alta do curso: al banco e al tavolo são dois preços legais para o mesmo café, e a diferença chega a quatro vezes numa praça turística. O molde nasce onde o erro custa dinheiro."
     },
     {
@@ -104,9 +176,22 @@
       "tipo": "aberto",
       "tipoBuraco": "ingrediente",
       "casa": "B12",
-      "redisparos": ["B13", "B17"],
-      "tiles": ["mesa", "dieta", "saude"],
-      "exemplos": ["glutine", "lattosio", "ghiaccio", "cipolla", "ricetta"],
+      "redisparos": [
+        "B13",
+        "B17"
+      ],
+      "tiles": [
+        "mesa",
+        "dieta",
+        "saude"
+      ],
+      "exemplos": [
+        "glutine",
+        "lattosio",
+        "ghiaccio",
+        "cipolla",
+        "ricetta"
+      ],
       "nota": "Duas sílabas, verbo nenhum, e funciona como enunciado inteiro. RESSALVA: `senza` remove uma PREFERÊNCIA e não comunica alergia — B13 troca de ferramenta de propósito (aviso fixo + cartão escrito), porque o molde não carrega gravidade."
     },
     {
@@ -117,9 +202,20 @@
       "tipo": "aberto",
       "tipoBuraco": "coisa",
       "casa": "B14",
-      "redisparos": ["I02", "I07"],
-      "tiles": ["mesa", "pagar"],
-      "exemplos": ["il conto", "lo scontrino", "un bicchiere d'acqua", "il menù"],
+      "redisparos": [
+        "I02",
+        "I07"
+      ],
+      "tiles": [
+        "mesa",
+        "pagar"
+      ],
+      "exemplos": [
+        "il conto",
+        "lo scontrino",
+        "un bicchiere d'acqua",
+        "il menù"
+      ],
       "nota": "Fecha a mesa. `Lo scontrino` é o encaixe que mais importa: o recibo fiscal é obrigação legal na Itália, não cortesia, e sair sem ele é irregular."
     }
   ],

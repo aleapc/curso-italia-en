@@ -8,7 +8,7 @@
   "cena": "Tonight, on the kitchen table, is the last moment any of this is easy to fix — tomorrow it all lives in a phone that might have no signal.",
   "moldura": "protege",
   "frasePiso": "If the phone dies at the taxi rank, the trip should still exist in your hand.",
-  "moldes": ["MI-PUO"],
+  "moldes": [],
   "steps": [
     { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b04-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Tomorrow's trip starts tonight. Four files, checked while a mistake still costs nothing to fix." },
     { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b04-n02", "bloco": "corpo", "pt": "One: the passport, and your airline's own validity rule — the airline's boarding check and the border's rule are not the same thing." },
