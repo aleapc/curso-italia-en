@@ -1,0 +1,57 @@
+{
+  "id": "i03",
+  "nivel": "intermediario",
+  "numero": 21,
+  "parte": "I03",
+  "titulo": "The dish you were never going to order",
+  "subtitulo": "Cosa mi consiglia is the shortest route to the thing the kitchen is actually proud of",
+  "cena": "The menu has forty items, you recognise six, and you are about to order the sixth one for the fourth night running.",
+  "moldura": "ganha",
+  "frasePiso": "Stop reading the menu. Ask the person who knows what came in this morning.",
+  "decisao": "pedir o que a casa recomenda em vez do prato que você já reconhece, que é a diferença entre comer na Itália e comer o que você comeria em casa",
+  "moldes": ["C-E"],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i03-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Four nights of the dish you already knew is the most common way to eat badly in a country that eats extremely well." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i03-n02", "bloco": "corpo", "pt": "One sentence solves it. Cosa mi consiglia — what do you recommend. Ask it before you have read anything." },
+    { "tipo": "ouvir", "voz": "target_it_f", "audioKey": "it-i03-t01", "es": "Cosa mi consiglia?", "pinyin": "KO-za mee kon-SEE-lya", "pt": "What do you recommend?", "tts": "Cosa mi consiglia?" },
+    { "consulta": ["comer/escolher", "comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i03-p01", "promptPt": "Put the menu down and ask. Speak now.", "audioKey": "it-i03-t01", "es": "Cosa mi consiglia?", "pinyin": "KO-za mee kon-SEE-lya", "pt": "What do you recommend?" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i03-r01", "receptivo": true, "acao": "Take the first thing they name. That is the one the kitchen is proud of today.", "es": "Oggi abbiamo i carciofi. Li facciamo alla giudia.", "pt": "Today we have artichokes. We do them Jewish-style.", "tts": "Oggi abbiamo i carciofi. Li facciamo alla giudia." },
+    { "consulta": ["comer/escolher"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i03-p02", "promptPt": "Take the recommendation without asking three follow-up questions. Speak now.", "audioKey": "it-i03-t02", "es": "Allora prendo quello, mi fido.", "pinyin": "al-LO-ra PREN-do KWEL-lo, mee FEE-do", "pt": "Then I'll have that, I trust you.", "tts": "Allora prendo quello, mi fido." },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i03-n03", "pt": "Mi fido — I trust you — is the two words that change the answer you get for the rest of the meal." },
+    { "consulta": ["comer/escolher"], "tipo": "responde", "voz": "target_it_f", "molde": "C-E", "encaixe": "un piatto tipico di qui", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i03-p03", "promptPt": "Ask for the local dish specifically, using the frame from B08. Speak now.", "audioKey": "it-i03-t03", "es": "C'è un piatto tipico di qui?", "pinyin": "cheh oon pee-AT-to TEE-pee-ko dee kwee", "pt": "Is there a dish typical of here?", "tts": "C'è un piatto tipico di qui?" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i03-n04", "bloco": "capsula", "pt": "The menu is in courses: antipasto, primo, secondo, contorno, dolce. You do not have to order all five, and almost nobody does." },
+    { "consulta": ["comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i03-p04", "promptPt": "Order two courses and say so, so nothing else arrives. Speak now.", "audioKey": "it-i03-t04", "es": "Solo un primo e un contorno, grazie.", "pinyin": "SO-lo oon PREE-mo eh oon kon-TOR-no, GRA-tsee-eh", "pt": "Just a first course and a side, thank you.", "tts": "Solo un primo e un contorno, grazie." },
+    { "consulta": ["comer/escolher", "comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i03-p05", "promptPt": "Ask what today's dish is — the one not printed on the menu. Speak now.", "audioKey": "it-i03-t05", "es": "Qual è il piatto del giorno?", "pinyin": "kwal eh eel pee-AT-to del JOR-no", "pt": "What's today's dish?", "tts": "Qual è il piatto del giorno?" },
+    { "consulta": ["comer/escolher"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i03-p06", "promptPt": "You do not know what a word on the menu is. Ask, without apologising. Speak now.", "audioKey": "it-i03-t06", "es": "Scusi, cos'è questo?", "pinyin": "SKOO-zee, ko-ZEH KWES-to", "pt": "Sorry, what is this?", "tts": "Scusi, cos'è questo?" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i03-r02", "receptivo": true, "acao": "If it is offal or something unfamiliar, that is information, not a warning. Decide, do not flinch.", "es": "È la trippa. Piatto povero, ma buonissimo.", "pt": "It's tripe. A poor man's dish, but delicious.", "tts": "È la trippa. Piatto povero, ma buonissimo." },
+    { "consulta": ["comer/bebida"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i03-p07", "promptPt": "Let them pick the wine too. Ask for the house one. Speak now.", "audioKey": "it-i03-t07", "es": "Un quarto di vino della casa, rosso.", "pinyin": "oon KWAR-to dee VEE-no DEL-la KA-za, ROS-so", "pt": "A quarter litre of house wine, red.", "tts": "Un quarto di vino della casa, rosso." },
+    { "consulta": ["comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i03-p08", "promptPt": "They ask about dessert. Ask what is made in-house. Speak now.", "audioKey": "it-i03-t08", "es": "Il dolce lo fate voi?", "pinyin": "eel DOL-che lo FA-te voy", "pt": "Do you make the dessert yourselves?", "tts": "Il dolce lo fate voi?" },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i03-s01", "es": "Cosa mi consiglia? Allora prendo quello, mi fido. Un quarto di vino della casa, rosso.", "pinyin": "KO-za mee kon-SEE-lya. al-LO-ra PREN-do KWEL-lo mee FEE-do. oon KWAR-to dee VEE-no DEL-la KA-za ROS-so", "pt": "Shadow the handover: ask, accept, and let them choose the wine.", "tts": "Cosa mi consiglia? Allora prendo quello, mi fido. Un quarto di vino della casa, rosso." },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i03-n05", "bloco": "recap", "pt": "I03 done. Cosa mi consiglia, mi fido, and the house wine — three moves that hand the meal to someone who knows." }
+  ],
+  "aprofundar": {
+    "titulo": "Handing over the decision",
+    "secoes": [
+      { "titulo": "Cosa mi consiglia, then mi fido", "corpo": "The first sentence gets a recommendation; the second gets the good one. Accepting without negotiation signals that you are not going to be a difficult table, and the quality of what arrives reflects that.", "exemplos": [{ "es": "Cosa mi consiglia?", "pt": "What do you recommend?" }, { "es": "Allora prendo quello, mi fido.", "pt": "Then I'll have that, I trust you." }] },
+      { "titulo": "You do not order every course", "corpo": "Antipasto, primo, secondo, contorno, dolce is the full structure, not the expected order. A primo and a contorno is a completely normal meal, and saying which courses you want up front stops the rest from arriving." },
+      { "titulo": "What a tourist menu signals", "corpo": "A fixed multilingual menu with photographs outside a central restaurant is aimed at people passing once. It is not necessarily bad food, but it is food designed around never seeing you again, which is the opposite of the incentive you want." },
+      { "titulo": "Vino della casa", "corpo": "House wine sold by the quarter, half or litre is normal and usually the local wine the place actually drinks. Ordering it is not a downgrade — in an ordinary trattoria it is often the better call than the cheapest bottle on the list." }
+    ]
+  },
+  "slot": "I03",
+  "permissao": "You are allowed to admit you do not know what something on the menu is. Scusi, cos'è questo gets an enthusiastic answer roughly every time — the dish nobody explains is the one you go home not having eaten.",
+  "permissaoAudioKey": "it-i03-n02",
+  "espelho": "Anyone who has ordered the one familiar item on a foreign menu four nights running knows exactly what this part costs to skip. It is not caution about food — it is the small effort of asking being higher than the effort of pointing at what you recognise.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for a recommendation and the waiter names one dish immediately, with no alternatives offered.",
+      "suaLeitura": "They are pushing whatever they need to sell tonight.",
+      "oQueEAli": "A single confident answer usually means there is a right answer today — something that came in fresh, or the dish the kitchen is known for. A long list of options is the more commercial response, not the shorter one.",
+      "oQueVoceFaz": "Take it, and say mi fido. If you genuinely cannot eat it, name the reason rather than asking for the list.",
+      "oQueMelhora": "You eat the thing that place does best on the night you are there, which is not knowable from the menu at any price.",
+      "ondeNaoVale": "Not in a place where the same recommendation is made to every table in four languages — there the confidence is a script, and the printed menu is the more honest document.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-i03-n03"]
+    }
+  ]
+}
