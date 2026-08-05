@@ -11,31 +11,234 @@
   "decisao": "ficar na conversa com cinco respostas prontas em vez de sair dela com um sorriso educado toda vez que alguém puxa assunto",
   "moldes": [],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i05-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Nearly every conversation you have in Italy opens with the same five questions. That is not a limitation — it is a script you can learn." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i05-r01", "receptivo": true, "acao": "Answer with the city, not the country, if the city is one they will know.", "es": "Di dove siete?", "pt": "Where are you from?", "tts": "Di dove siete?" },
-    { "consulta": ["conversa/origem"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i05-p01", "promptPt": "Answer question one. Give a place they can picture. Speak now.", "audioKey": "it-i05-t01", "es": "Siamo di Boston, negli Stati Uniti.", "pinyin": "SYA-mo dee BOS-ton, NE-lyee STA-tee oo-NEE-tee", "pt": "We're from Boston, in the United States.", "tts": "Siamo di Boston, negli Stati Uniti." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i05-n02", "bloco": "corpo", "pt": "Question two is always how long. Give the number and the unit, the same way you did at the border." },
-    { "consulta": ["conversa/viagem", "chegar/duracao"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i05-p02", "promptPt": "Say how long you are staying, and add where you go next. Speak now.", "audioKey": "it-i05-t02", "es": "Dieci giorni. Poi andiamo in Sicilia.", "pinyin": "dee-EH-chee JOR-nee. poy an-DYA-mo een see-CHEE-lya", "pt": "Ten days. Then we're going to Sicily.", "tts": "Dieci giorni. Poi andiamo in Sicilia." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i05-r02", "es": "È la prima volta in Italia?", "pt": "Is this your first time in Italy?", "tts": "È la prima volta in Italia?" },
-    { "consulta": ["conversa/viagem"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i05-p03", "promptPt": "Answer question three and give them something to react to. Speak now.", "audioKey": "it-i05-t03", "es": "No, la seconda. La prima volta ero a Roma.", "pinyin": "no, la se-KON-da. la PREE-ma VOL-ta EH-ro a RO-ma", "pt": "No, the second. The first time I was in Rome.", "tts": "No, la seconda. La prima volta ero a Roma." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i05-n03", "pt": "Question four is what you do. Two words is a complete answer — nobody is asking for your career." },
-    { "consulta": ["conversa/trabalho"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i05-p04", "promptPt": "Say what you do, briefly. Speak now.", "audioKey": "it-i05-t04", "es": "Faccio l'insegnante.", "pinyin": "FAT-cho leen-se-NYAN-te", "pt": "I'm a teacher.", "tts": "Faccio l'insegnante." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i05-n04", "bloco": "capsula", "pt": "Question five is the one that matters: do you like it here. Answer with a specific, and the conversation opens." },
-    { "consulta": ["conversa/opiniao"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i05-p05", "promptPt": "Say what you like, naming one concrete thing. Speak now.", "audioKey": "it-i05-t05", "es": "Mi piace tantissimo, soprattutto i mercati.", "pinyin": "mee PYA-che tan-TEES-see-mo, so-prat-TOOT-to ee mer-KA-tee", "pt": "I like it enormously, the markets above all.", "tts": "Mi piace tantissimo, soprattutto i mercati." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i05-r03", "receptivo": true, "acao": "This is the payoff. Say yes and write down what they name.", "es": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti.", "pt": "Then tomorrow you have to go to the Sant'Ambrogio one. Fewer tourists.", "tts": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti." },
-    { "consulta": ["conversa/perguntar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i05-p06", "promptPt": "Turn it around — ask them the question they asked you. Speak now.", "audioKey": "it-i05-t06", "es": "E lei è di qui?", "pinyin": "eh lay eh dee kwee", "pt": "And are you from here?", "tts": "E lei è di qui?" },
-    { "consulta": ["reparo/nao-entendi"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i05-p07", "promptPt": "You lost the question entirely. Stay in the conversation instead of leaving it. Speak now.", "audioKey": "it-i05-t07", "es": "Scusi, mi sono perso. Può ripetere?", "pinyin": "SKOO-zee, mee SO-no PER-so. pwoh ree-PE-te-re", "pt": "Sorry, I lost you. Can you repeat that?", "tts": "Scusi, mi sono perso. Può ripetere?" },
-    { "consulta": ["conversa/despedir"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i05-p08", "promptPt": "You have to go, and you want the door left open. Speak now.", "audioKey": "it-i05-t08", "es": "È stato un piacere. Magari ci vediamo domani.", "pinyin": "eh STA-to oon pya-CHE-re. ma-GA-ree chee ve-DYA-mo do-MA-nee", "pt": "It's been a pleasure. Maybe we'll see each other tomorrow.", "tts": "È stato un piacere. Magari ci vediamo domani." },
-    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i05-s01", "es": "Siamo di Boston. Dieci giorni. Mi piace tantissimo, soprattutto i mercati. E lei è di qui?", "pinyin": "SYA-mo dee BOS-ton. dee-EH-chee JOR-nee. mee PYA-che tan-TEES-see-mo so-prat-TOOT-to ee mer-KA-tee. eh lay eh dee kwee", "pt": "Shadow the four answers and the question that hands it back.", "tts": "Siamo di Boston. Dieci giorni. Mi piace tantissimo, soprattutto i mercati. E lei è di qui?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i05-n05", "bloco": "recap", "pt": "I05 done. Where from, how long, first time, what you do, do you like it — and then one question back." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Nearly every conversation you have in Italy opens with the same five questions. That is not a limitation — it is a script you can learn."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i05-r01",
+      "receptivo": true,
+      "acao": "Answer with the city, not the country, if the city is one they will know.",
+      "es": "Di dove siete?",
+      "pt": "Where are you from?",
+      "tts": "Di dove siete?"
+    },
+    {
+      "consulta": [
+        "conversa/origem"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i05-p01",
+      "promptPt": "Answer question one. Give a place they can picture. Speak now.",
+      "audioKey": "it-i05-t01",
+      "es": "Siamo di Boston, negli Stati Uniti.",
+      "pinyin": "SYA-mo dee BOS-ton, NE-lyee STA-tee oo-NEE-tee",
+      "pt": "We're from Boston, in the United States.",
+      "tts": "Siamo di Boston, negli Stati Uniti."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i05-n02",
+      "bloco": "corpo",
+      "pt": "Question two is always how long. Give the number and the unit, the same way you did at the border."
+    },
+    {
+      "consulta": [
+        "conversa/viagem",
+        "chegar/duracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i05-p02",
+      "promptPt": "Say how long you are staying, and add where you go next. Speak now.",
+      "audioKey": "it-i05-t02",
+      "es": "Dieci giorni. Poi andiamo in Sicilia.",
+      "pinyin": "dee-EH-chee JOR-nee. poy an-DYA-mo een see-CHEE-lya",
+      "pt": "Ten days. Then we're going to Sicily.",
+      "tts": "Dieci giorni. Poi andiamo in Sicilia."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i05-r02",
+      "es": "È la prima volta in Italia?",
+      "pt": "Is this your first time in Italy?",
+      "tts": "È la prima volta in Italia?"
+    },
+    {
+      "consulta": [
+        "conversa/viagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i05-p03",
+      "promptPt": "Answer question three and give them something to react to. Speak now.",
+      "audioKey": "it-i05-t03",
+      "es": "No, la seconda. La prima volta ero a Roma.",
+      "pinyin": "no, la se-KON-da. la PREE-ma VOL-ta EH-ro a RO-ma",
+      "pt": "No, the second. The first time I was in Rome.",
+      "tts": "No, la seconda. La prima volta ero a Roma."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i05-n03",
+      "pt": "Question four is what you do. Two words is a complete answer — nobody is asking for your career."
+    },
+    {
+      "consulta": [
+        "conversa/trabalho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i05-p04",
+      "promptPt": "Say what you do, briefly. Speak now.",
+      "audioKey": "it-i05-t04",
+      "es": "Faccio l'insegnante.",
+      "pinyin": "FAT-cho leen-se-NYAN-te",
+      "pt": "I'm a teacher.",
+      "tts": "Faccio l'insegnante."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i05-n04",
+      "bloco": "capsula",
+      "pt": "Question five is the one that matters: do you like it here. The frame is mi piace plus the thing, and a specific answer opens the conversation."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i05-p05",
+      "promptPt": "Say what you like, naming one concrete thing. Speak now.",
+      "audioKey": "it-i05-t05",
+      "es": "Mi piace tantissimo, soprattutto i mercati.",
+      "pinyin": "mee PYA-che tan-TEES-see-mo, so-prat-TOOT-to ee mer-KA-tee",
+      "pt": "I like it enormously, the markets above all.",
+      "tts": "Mi piace tantissimo, soprattutto i mercati.",
+      "molde": "MI-PIACE",
+      "encaixe": "i mercati"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i05-r03",
+      "receptivo": true,
+      "acao": "This is the payoff. Say yes and write down what they name.",
+      "es": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti.",
+      "pt": "Then tomorrow you have to go to the Sant'Ambrogio one. Fewer tourists.",
+      "tts": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i05-p06",
+      "promptPt": "Turn it around — ask them the question they asked you. Speak now.",
+      "audioKey": "it-i05-t06",
+      "es": "E lei è di qui?",
+      "pinyin": "eh lay eh dee kwee",
+      "pt": "And are you from here?",
+      "tts": "E lei è di qui?"
+    },
+    {
+      "consulta": [
+        "reparo/nao-entendi"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i05-p07",
+      "promptPt": "You lost the question entirely. Stay in the conversation instead of leaving it. Speak now.",
+      "audioKey": "it-i05-t07",
+      "es": "Scusi, mi sono perso. Può ripetere?",
+      "pinyin": "SKOO-zee, mee SO-no PER-so. pwoh ree-PE-te-re",
+      "pt": "Sorry, I lost you. Can you repeat that?",
+      "tts": "Scusi, mi sono perso. Può ripetere?",
+      "molde": "MI-PUO",
+      "encaixe": "ripetere"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i05-p08",
+      "promptPt": "You have to go, and you want the door left open. Speak now.",
+      "audioKey": "it-i05-t08",
+      "es": "È stato un piacere. Magari ci vediamo domani.",
+      "pinyin": "eh STA-to oon pya-CHE-re. ma-GA-ree chee ve-DYA-mo do-MA-nee",
+      "pt": "It's been a pleasure. Maybe we'll see each other tomorrow.",
+      "tts": "È stato un piacere. Magari ci vediamo domani."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i05-s01",
+      "es": "Siamo di Boston. Dieci giorni. Mi piace tantissimo, soprattutto i mercati. E lei è di qui?",
+      "pinyin": "SYA-mo dee BOS-ton. dee-EH-chee JOR-nee. mee PYA-che tan-TEES-see-mo so-prat-TOOT-to ee mer-KA-tee. eh lay eh dee kwee",
+      "pt": "Shadow the four answers and the question that hands it back.",
+      "tts": "Siamo di Boston. Dieci giorni. Mi piace tantissimo, soprattutto i mercati. E lei è di qui?",
+      "molde": "MI-PUO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i05-n05",
+      "bloco": "recap",
+      "pt": "I05 done. Where from, how long, first time, what you do, do you like it — and then one question back."
+    }
   ],
   "aprofundar": {
     "titulo": "A script you can prepare",
     "secoes": [
-      { "titulo": "Prepare them once", "corpo": "Write your five answers before the trip and say them out loud twice. The gain is not the sentences — it is that you spend the actual conversation listening instead of assembling.", "exemplos": [{ "es": "Siamo di Boston, negli Stati Uniti.", "pt": "We're from Boston, in the United States." }, { "es": "Faccio l'insegnante.", "pt": "I'm a teacher." }] },
-      { "titulo": "Specific answers earn recommendations", "corpo": "Mi piace tutto ends the exchange. Naming one thing you liked gives the other person something to improve on, and what comes back is usually the version locals actually use." },
-      { "titulo": "The question back is the whole trick", "corpo": "E lei è di qui? converts an interview into a conversation. Italians ask a lot of questions and expect them returned; not returning one reads as not being interested." },
-      { "titulo": "Lei and tu", "corpo": "Lei is the polite form and is safe with anyone older, anyone working, and anyone you have just met. If they switch to tu, follow them. You are never wrong for having started with lei." }
+      {
+        "titulo": "Prepare them once",
+        "corpo": "Write your five answers before the trip and say them out loud twice. The gain is not the sentences — it is that you spend the actual conversation listening instead of assembling.",
+        "exemplos": [
+          {
+            "es": "Siamo di Boston, negli Stati Uniti.",
+            "pt": "We're from Boston, in the United States."
+          },
+          {
+            "es": "Faccio l'insegnante.",
+            "pt": "I'm a teacher."
+          }
+        ]
+      },
+      {
+        "titulo": "Specific answers earn recommendations",
+        "corpo": "Mi piace tutto ends the exchange. Naming one thing you liked gives the other person something to improve on, and what comes back is usually the version locals actually use."
+      },
+      {
+        "titulo": "The question back is the whole trick",
+        "corpo": "E lei è di qui? converts an interview into a conversation. Italians ask a lot of questions and expect them returned; not returning one reads as not being interested."
+      },
+      {
+        "titulo": "Lei and tu",
+        "corpo": "Lei is the polite form and is safe with anyone older, anyone working, and anyone you have just met. If they switch to tu, follow them. You are never wrong for having started with lei."
+      }
     ]
   },
   "slot": "I05",
@@ -51,7 +254,9 @@
       "oQueMelhora": "You get past the opening in thirty seconds and into the part where they tell you which market to go to, which is where the value of the conversation actually is.",
       "ondeNaoVale": "Not a licence for the same volley from you towards someone visibly working through a queue, and not an obligation to answer anything you would rather not — deflecting one question warmly does not break the exchange.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["it-i05-n01"]
+      "audioKeys": [
+        "it-i05-n01"
+      ]
     }
   ]
 }

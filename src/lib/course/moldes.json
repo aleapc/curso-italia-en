@@ -224,6 +224,84 @@
         "il menù"
       ],
       "nota": "Fecha a mesa. `Lo scontrino` é o encaixe que mais importa: o recibo fiscal é obrigação legal na Itália, não cortesia, e sair sem ele é irregular."
+    },
+    {
+      "id": "A-CHE-ORA",
+      "casa": "B09",
+      "redisparos": [
+        "B10",
+        "B16",
+        "I01"
+      ],
+      "categoria": "operacional",
+      "forma": "A che ora + [verbo]?",
+      "encaixe": "qualquer coisa que abre, parte ou é servida",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "tiles": [
+        "transporte",
+        "comer",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "parte",
+        "aprite",
+        "apre la cucina",
+        "è la colazione",
+        "chiude"
+      ],
+      "nota": "O horário é a única variável que o aluno não consegue adivinhar e que reorganiza o resto do dia. Abridor fixo, verbo variável."
+    },
+    {
+      "id": "MI-PIACE",
+      "casa": "I05",
+      "redisparos": [
+        "I06"
+      ],
+      "categoria": "social",
+      "forma": "Mi piace / Mi è piaciuto + [coisa]",
+      "encaixe": "qualquer coisa sobre a qual ele tem opinião",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "tiles": [
+        "conversa",
+        "comer",
+        "cidade"
+      ],
+      "exemplos": [
+        "i mercati",
+        "moltissimo",
+        "il museo",
+        "la città",
+        "questo vino"
+      ],
+      "nota": "Sem opinião o aluno responde perguntas e nunca continua nenhuma. É o molde que faz o interlocutor recomendar em vez de só interrogar."
+    },
+    {
+      "id": "HO-FATTO",
+      "casa": "I06",
+      "redisparos": [
+        "I08"
+      ],
+      "categoria": "operacional",
+      "forma": "Ho / Sono + [particípio]",
+      "encaixe": "qualquer coisa que ele fez ontem",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "tiles": [
+        "conversa",
+        "comer",
+        "cidade"
+      ],
+      "exemplos": [
+        "sono andato a Firenze",
+        "ho mangiato la bistecca",
+        "abbiamo camminato",
+        "ho comprato del formaggio",
+        "ho portato il dolce"
+      ],
+      "nota": "O passado não entra como tempo verbal, entra como três verbos que carregam qualquer dia. Tira o aluno do presente permanente."
     }
   ],
   "cortados": [

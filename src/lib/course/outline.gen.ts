@@ -37,6 +37,24 @@ export const outline: ModuloOutline[] = [
       { id: 'b18', titulo: 'The last day — check out, leave the bag, and say the thing that makes you welcome back', pronta: true },
     ]
   },
+  {
+    nivel: 'intermediario',
+    nome: 'Intermediate · Get the good stuff',
+    descricao: 'Eat where they eat, when they eat, at the price they pay.',
+    cor: 'oliva',
+    licoes: [
+      { id: 'i01', titulo: 'Their clock, and why eating early costs you the good table', pronta: true },
+      { id: 'i02', titulo: 'The order of operations at the counter', pronta: true },
+      { id: 'i03', titulo: 'The dish you were never going to order', pronta: true },
+      { id: 'i04', titulo: 'The evening: aperitivo, the round, and how to leave a table', pronta: true },
+      { id: 'i05', titulo: 'The five questions everyone asks you', pronta: true },
+      { id: 'i06', titulo: 'Telling them about yesterday', pronta: true },
+      { id: 'i07', titulo: 'Praise that reaches the kitchen, and the sentence that gets it fixed', pronta: true },
+      { id: 'i08', titulo: 'Being invited into someone\'s home', pronta: true },
+      { id: 'i09', titulo: 'Spending the afternoon the way they spend it', pronta: true },
+      { id: 'i10', titulo: 'Money here: the card they must take, the tip nobody expects', pronta: true },
+    ]
+  },
 ];
 
 // Gerado de static/img/ — a home só pede imagem que existe.

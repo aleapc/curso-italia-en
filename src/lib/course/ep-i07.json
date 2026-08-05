@@ -3,40 +3,246 @@
   "nivel": "intermediario",
   "numero": 25,
   "parte": "I07",
-  "titulo": "Praise that reaches the kitchen, complaints that get fixed",
-  "subtitulo": "The specific compliment brings the cook out; the calm, factual complaint gets the dish changed",
+  "titulo": "Praise that reaches the kitchen, and the sentence that gets it fixed",
+  "subtitulo": "The specific compliment brings the cook out; the calm, factual sentence gets the dish changed",
   "cena": "The dish was genuinely wonderful, the one before it was cold, and you have about ten seconds to do something useful with either fact.",
   "moldura": "ganha",
   "frasePiso": "Name the thing. A compliment with a noun in it travels to the kitchen; a complaint with a fact in it gets acted on.",
   "decisao": "elogiar nomeando o prato e reclamar nomeando o fato, em vez de dizer 'tudo ótimo' e depois escrever uma avaliação ruim de casa",
-  "moldes": ["MI-PORTA"],
+  "moldes": [],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i07-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Two sentences, opposite jobs, same rule: name the thing. Vague praise dies at the table and vague complaints get an apology instead of a fix." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i07-n02", "bloco": "corpo", "pt": "Praise first. Tutto buono is polite noise. Name the dish and it becomes a message someone will actually repeat." },
-    { "tipo": "ouvir", "voz": "target_it_f", "audioKey": "it-i07-t01", "es": "La pasta era buonissima, complimenti al cuoco.", "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko", "pt": "The pasta was outstanding, compliments to the cook.", "tts": "La pasta era buonissima, complimenti al cuoco." },
-    { "consulta": ["conversa/elogiar", "comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i07-p01", "promptPt": "Praise one dish by name and send it to the kitchen. Speak now.", "audioKey": "it-i07-t01", "es": "La pasta era buonissima, complimenti al cuoco.", "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko", "pt": "The pasta was outstanding, compliments to the cook." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i07-r01", "receptivo": true, "acao": "Stay at the table. The cook may actually come out, and leaving mid-compliment is the one rude move here.", "es": "Glielo dico subito. È mia madre che cucina.", "pt": "I'll tell her right away. It's my mother who cooks.", "tts": "Glielo dico subito. È mia madre che cucina." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i07-n03", "pt": "Buonissimo, ottimo, squisito. Any of the three is stronger than very good, and all three are ordinary words here." },
-    { "consulta": ["conversa/elogiar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i07-p02", "promptPt": "Praise the place rather than the plate. Speak now.", "audioKey": "it-i07-t02", "es": "Si mangia benissimo qui.", "pinyin": "see MAN-ja be-NEES-see-mo kwee", "pt": "One eats really well here.", "tts": "Si mangia benissimo qui." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i07-n04", "bloco": "capsula", "pt": "Now the complaint. State the fact, no adjectives, no apology. Scusi, plus what is wrong, and then stop talking." },
-    { "consulta": ["reparo/reclamar", "comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i07-p03", "promptPt": "The dish arrived cold. Say only that. Speak now.", "audioKey": "it-i07-t03", "es": "Scusi, questo è freddo.", "pinyin": "SKOO-zee, KWES-to eh FRED-do", "pt": "Sorry, this is cold.", "tts": "Scusi, questo è freddo." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i07-r02", "es": "Mi dispiace tantissimo, glielo cambio subito.", "pt": "I'm terribly sorry, I'll change it right away.", "tts": "Mi dispiace tantissimo, glielo cambio subito." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i07-n05", "pt": "That worked because there was a fact in it. Adding it is a shame or I am so sorry to bother you gives them nothing to act on." },
-    { "consulta": ["reparo/reclamar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i07-p04", "promptPt": "Wrong dish entirely. Say what you ordered instead. Speak now.", "audioKey": "it-i07-t04", "es": "Scusi, io avevo ordinato il pesce.", "pinyin": "SKOO-zee, EE-o a-VE-vo or-dee-NA-to eel PE-she", "pt": "Sorry, I had ordered the fish.", "tts": "Scusi, io avevo ordinato il pesce." },
-    { "consulta": ["reparo/reclamar", "comer/pedido"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PORTA", "encaixe": "un altro bicchiere", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i07-p05", "promptPt": "The glass is chipped. Ask for another, using the frame from B14. Speak now.", "audioKey": "it-i07-t05", "es": "Mi porta un altro bicchiere, per favore?", "pinyin": "mee POR-ta oon AL-tro beek-kee-EH-re per fa-VO-re", "pt": "Could you bring me another glass, please?", "tts": "Mi porta un altro bicchiere, per favore?" },
-    { "consulta": ["reparo/reclamar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i07-p06", "promptPt": "It has been forty minutes. Ask about it without accusing anyone. Speak now.", "audioKey": "it-i07-t06", "es": "Scusi, manca ancora molto?", "pinyin": "SKOO-zee, MAN-ka an-KO-ra MOL-to", "pt": "Sorry, is it still a long wait?", "tts": "Scusi, manca ancora molto?" },
-    { "consulta": ["conversa/agradecer"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i07-p07", "promptPt": "They fixed it immediately. Close the loop so it does not stay awkward. Speak now.", "audioKey": "it-i07-t07", "es": "Grazie, gentilissimo. Nessun problema.", "pinyin": "GRA-tsee-eh jen-tee-LEES-see-mo. nes-SOON pro-BLE-ma", "pt": "Thank you, very kind. No problem at all.", "tts": "Grazie, gentilissimo. Nessun problema." },
-    { "consulta": ["conversa/elogiar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i07-p08", "promptPt": "Say you will come back — the strongest compliment there is. Speak now.", "audioKey": "it-i07-t08", "es": "Torniamo di sicuro domani.", "pinyin": "tor-NYA-mo dee see-KOO-ro do-MA-nee", "pt": "We'll definitely come back tomorrow.", "tts": "Torniamo di sicuro domani." },
-    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i07-s01", "es": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.", "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma kom-plee-MEN-tee al KWO-ko. SKOO-zee KWES-to eh FRED-do. GRA-tsee-eh jen-tee-LEES-see-mo", "pt": "Shadow praise, complaint, and the close that keeps the room warm.", "tts": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i07-n06", "bloco": "recap", "pt": "I07 done. Name the dish to praise it, name the fact to fix it, and close warmly either way." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Two sentences, opposite jobs, same rule: name the thing. Vague praise dies at the table and vague complaints get an apology instead of a fix."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i07-n02",
+      "bloco": "corpo",
+      "pt": "Praise first. Tutto buono is polite noise. Name the dish and it becomes a message someone will actually repeat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-i07-t01",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko",
+      "pt": "The pasta was outstanding, compliments to the cook.",
+      "tts": "La pasta era buonissima, complimenti al cuoco."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p01",
+      "promptPt": "Praise one dish by name and send it to the kitchen. Speak now.",
+      "audioKey": "it-i07-t01",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko",
+      "pt": "The pasta was outstanding, compliments to the cook."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i07-r01",
+      "receptivo": true,
+      "acao": "Stay at the table. The cook may actually come out, and leaving mid-compliment is the one rude move here.",
+      "es": "Glielo dico subito. È mia madre che cucina.",
+      "pt": "I'll tell her right away. It's my mother who cooks.",
+      "tts": "Glielo dico subito. È mia madre che cucina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n03",
+      "pt": "Buonissimo, ottimo, squisito. Any of the three is stronger than very good, and all three are ordinary words here."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p02",
+      "promptPt": "Praise the place rather than the plate. Speak now.",
+      "audioKey": "it-i07-t02",
+      "es": "Si mangia benissimo qui.",
+      "pinyin": "see MAN-ja be-NEES-see-mo kwee",
+      "pt": "One eats really well here.",
+      "tts": "Si mangia benissimo qui."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i07-n04",
+      "bloco": "capsula",
+      "pt": "Now the complaint. State the fact, no adjectives, no apology. Scusi, plus what is wrong, and then stop talking."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p03",
+      "promptPt": "The dish arrived cold. Say only that. Speak now.",
+      "audioKey": "it-i07-t03",
+      "es": "Scusi, questo è freddo.",
+      "pinyin": "SKOO-zee, KWES-to eh FRED-do",
+      "pt": "Sorry, this is cold.",
+      "tts": "Scusi, questo è freddo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i07-r02",
+      "es": "Mi dispiace tantissimo, glielo cambio subito.",
+      "pt": "I'm terribly sorry, I'll change it right away.",
+      "tts": "Mi dispiace tantissimo, glielo cambio subito."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n05",
+      "pt": "That worked because there was a fact in it. Adding it is a shame or I am so sorry to bother you gives them nothing to act on."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p04",
+      "promptPt": "Wrong dish entirely. Say what you ordered instead. Speak now.",
+      "audioKey": "it-i07-t04",
+      "es": "Scusi, io avevo ordinato il pesce.",
+      "pinyin": "SKOO-zee, EE-o a-VE-vo or-dee-NA-to eel PE-she",
+      "pt": "Sorry, I had ordered the fish.",
+      "tts": "Scusi, io avevo ordinato il pesce."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "un altro bicchiere",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p05",
+      "promptPt": "The glass is chipped. Ask for another, using the frame from B14. Speak now.",
+      "audioKey": "it-i07-t05",
+      "es": "Mi porta un altro bicchiere, per favore?",
+      "pinyin": "mee POR-ta oon AL-tro beek-kee-EH-re per fa-VO-re",
+      "pt": "Could you bring me another glass, please?",
+      "tts": "Mi porta un altro bicchiere, per favore?"
+    },
+    {
+      "consulta": [
+        "reparo/reclamar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p06",
+      "promptPt": "It has been forty minutes. Ask about it without accusing anyone. Speak now.",
+      "audioKey": "it-i07-t06",
+      "es": "Scusi, manca ancora molto?",
+      "pinyin": "SKOO-zee, MAN-ka an-KO-ra MOL-to",
+      "pt": "Sorry, is it still a long wait?",
+      "tts": "Scusi, manca ancora molto?"
+    },
+    {
+      "consulta": [
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p07",
+      "promptPt": "They fixed it immediately. Close the loop so it does not stay awkward. Speak now.",
+      "audioKey": "it-i07-t07",
+      "es": "Grazie, gentilissimo. Nessun problema.",
+      "pinyin": "GRA-tsee-eh jen-tee-LEES-see-mo. nes-SOON pro-BLE-ma",
+      "pt": "Thank you, very kind. No problem at all.",
+      "tts": "Grazie, gentilissimo. Nessun problema."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p08",
+      "promptPt": "Say you will come back — the strongest compliment there is. Speak now.",
+      "audioKey": "it-i07-t08",
+      "es": "Torniamo di sicuro domani.",
+      "pinyin": "tor-NYA-mo dee see-KOO-ro do-MA-nee",
+      "pt": "We'll definitely come back tomorrow.",
+      "tts": "Torniamo di sicuro domani."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i07-s01",
+      "es": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.",
+      "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma kom-plee-MEN-tee al KWO-ko. SKOO-zee KWES-to eh FRED-do. GRA-tsee-eh jen-tee-LEES-see-mo",
+      "pt": "Shadow praise, complaint, and the close that keeps the room warm.",
+      "tts": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.",
+      "molde": "MI-PORTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n06",
+      "bloco": "recap",
+      "pt": "I07 done. Name the dish to praise it, name the fact to fix it, and close warmly either way."
+    }
   ],
   "aprofundar": {
     "titulo": "Both sentences need a noun",
     "secoes": [
-      { "titulo": "Complimenti al cuoco travels", "corpo": "It is a fixed phrase and it does exactly what it says: the waiter relays it. In a family-run place the cook may come out, which is why the compliment is worth making before you ask for the bill rather than on the way out.", "exemplos": [{ "es": "Complimenti al cuoco!", "pt": "Compliments to the cook!" }, { "es": "Si mangia benissimo qui.", "pt": "One eats really well here." }] },
-      { "titulo": "Scusi plus the fact", "corpo": "Questo è freddo. Avevo ordinato il pesce. Manca ancora molto. Three complaints, no adjectives, no story about how long you have been travelling. The shorter the sentence, the faster the fix." },
-      { "titulo": "Why the over-apology backfires", "corpo": "Padding a complaint with apology buries the fact the other person needs. It also signals that you expect resistance, which invites it. A flat, warm, factual sentence is read as normal rather than as confrontation." },
-      { "titulo": "The strongest compliment is returning", "corpo": "Torniamo domani outranks any adjective. Places that feed the same people every week measure their work in return visits, not in reviews." }
+      {
+        "titulo": "Complimenti al cuoco travels",
+        "corpo": "It is a fixed phrase and it does exactly what it says: the waiter relays it. In a family-run place the cook may come out, which is why the compliment is worth making before you ask for the bill rather than on the way out.",
+        "exemplos": [
+          {
+            "es": "Complimenti al cuoco!",
+            "pt": "Compliments to the cook!"
+          },
+          {
+            "es": "Si mangia benissimo qui.",
+            "pt": "One eats really well here."
+          }
+        ]
+      },
+      {
+        "titulo": "Scusi plus the fact",
+        "corpo": "Questo è freddo. Avevo ordinato il pesce. Manca ancora molto. Three complaints, no adjectives, no story about how long you have been travelling. The shorter the sentence, the faster the fix."
+      },
+      {
+        "titulo": "Why the over-apology backfires",
+        "corpo": "Padding a complaint with apology buries the fact the other person needs. It also signals that you expect resistance, which invites it. A flat, warm, factual sentence is read as normal rather than as confrontation."
+      },
+      {
+        "titulo": "The strongest compliment is returning",
+        "corpo": "Torniamo domani outranks any adjective. Places that feed the same people every week measure their work in return visits, not in reviews."
+      }
     ]
   },
   "slot": "I07",
@@ -52,7 +258,9 @@
       "oQueMelhora": "You end up in a real conversation with the person whose work you just enjoyed, which is most of what the module is for.",
       "ondeNaoVale": "Not in a large or busy restaurant with a professional brigade, where the compliment stays with the waiter and nobody is going to leave the pass for it.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["it-i07-n02"]
+      "audioKeys": [
+        "it-i07-n02"
+      ]
     }
   ]
 }

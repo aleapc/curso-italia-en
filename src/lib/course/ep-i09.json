@@ -9,32 +9,233 @@
   "moldura": "ganha",
   "frasePiso": "The best hours here are not on any itinerary. The market before noon, the square after six, and whatever is on in the bar.",
   "decisao": "trocar a terceira igreja da lista pelo mercado de manhã e pela praça às seis, que é onde a cidade realmente está",
-  "moldes": ["POSSO"],
+  "moldes": [],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i09-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Italian towns have a rhythm, not opening hours. Morning is the market, afternoon is quiet, and from six the street fills up." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i09-n02", "bloco": "corpo", "pt": "Start at the market. Not to buy dinner — to see what the season actually is and to talk to four people in eight minutes." },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i09-r01", "receptivo": true, "acao": "Do not touch the produce. Point and let them pick it.", "es": "Dica signora, cosa le do? Guardi che pomodori.", "pt": "Tell me, what can I give you? Look at these tomatoes.", "tts": "Dica signora, cosa le do? Guardi che pomodori." },
-    { "consulta": ["comprar/mercado", "comer/temporada"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i09-p01", "promptPt": "Ask what is in season right now. Speak now.", "audioKey": "it-i09-t01", "es": "Cosa c'è di buono adesso?", "pinyin": "KO-za cheh dee BWO-no a-DES-so", "pt": "What's good right now?", "tts": "Cosa c'è di buono adesso?" },
-    { "consulta": ["comprar/mercado"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i09-p02", "promptPt": "Order a small amount — enough for two people, today. Speak now.", "audioKey": "it-i09-t02", "es": "Me ne dia due etti, per favore.", "pinyin": "meh neh DEE-a DOO-eh ET-tee per fa-VO-re", "pt": "Give me two hundred grams, please.", "tts": "Me ne dia due etti, per favore." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i09-n03", "pt": "Un etto is a hundred grams and it is how food is bought here. Due etti of cheese is a normal, unembarrassing amount." },
-    { "consulta": ["comprar/mercado", "reparo/permissao"], "tipo": "responde", "voz": "target_it_f", "molde": "POSSO", "encaixe": "assaggiare", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i09-p03", "promptPt": "Ask to taste before committing, using the frame from B06. Speak now.", "audioKey": "it-i09-t03", "es": "Posso assaggiare?", "pinyin": "POS-so as-sa-JA-re", "pt": "Can I taste it?", "tts": "Posso assaggiare?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i09-n04", "bloco": "capsula", "pt": "Then the evening walk. From six the whole town is outside, dressed, walking slowly, and going nowhere in particular." },
-    { "consulta": ["conversa/planos"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i09-p04", "promptPt": "Ask where people go for the evening walk. Speak now.", "audioKey": "it-i09-t04", "es": "Dove si fa la passeggiata la sera?", "pinyin": "DO-ve see fa la pas-se-JA-ta la SE-ra", "pt": "Where do people take the evening walk?", "tts": "Dove si fa la passeggiata la sera?" },
-    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i09-r02", "receptivo": true, "acao": "Go at seven, not at five. Earlier and the street is still empty.", "es": "Sul corso, verso le sette. Prima non c'è nessuno.", "pt": "On the main street, around seven. Before that there's nobody.", "tts": "Sul corso, verso le sette. Prima non c'è nessuno." },
-    { "consulta": ["conversa/planos", "cidade/evento"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i09-p05", "promptPt": "Ask whether anything is on this week. Speak now.", "audioKey": "it-i09-t05", "es": "C'è qualche festa questa settimana?", "pinyin": "cheh KWAL-keh FES-ta KWES-ta set-tee-MA-na", "pt": "Is there any festival on this week?", "tts": "C'è qualche festa questa settimana?" },
-    { "consulta": ["cidade/evento"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i09-p06", "promptPt": "The bar has the match on. Ask who is playing. Speak now.", "audioKey": "it-i09-t06", "es": "Chi gioca stasera?", "pinyin": "kee JO-ka sta-SE-ra", "pt": "Who's playing tonight?", "tts": "Chi gioca stasera?" },
-    { "consulta": ["cidade/evento", "reparo/permissao"], "tipo": "responde", "voz": "target_it_f", "molde": "POSSO", "encaixe": "guardare la partita qui", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i09-p07", "promptPt": "Ask whether you can watch it there. Speak now.", "audioKey": "it-i09-t07", "es": "Posso guardare la partita qui?", "pinyin": "POS-so gwar-DA-re la par-TEE-ta kwee", "pt": "Can I watch the match here?", "tts": "Posso guardare la partita qui?" },
-    { "consulta": ["conversa/perguntar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i09-p08", "promptPt": "Ask which team is the local one, so you know who to sit with. Speak now.", "audioKey": "it-i09-t08", "es": "Qual è la squadra di qui?", "pinyin": "kwal eh la SKWA-dra dee kwee", "pt": "Which is the local team?", "tts": "Qual è la squadra di qui?" },
-    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i09-s01", "es": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?", "pinyin": "KO-za cheh dee BWO-no a-DES-so. meh neh DEE-a DOO-eh ET-tee per fa-VO-re. DO-ve see fa la pas-se-JA-ta la SE-ra", "pt": "Shadow the day: market, purchase, evening.", "tts": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i09-n05", "bloco": "recap", "pt": "I09 done. Market before noon, passeggiata from seven, the match in the bar — and etti is how you buy anything." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Italian towns have a rhythm, not opening hours. Morning is the market, afternoon is quiet, and from six the street fills up."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i09-n02",
+      "bloco": "corpo",
+      "pt": "Start at the market. Not to buy dinner — to see what the season actually is and to talk to four people in eight minutes."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i09-r01",
+      "receptivo": true,
+      "acao": "Do not touch the produce. Point and let them pick it.",
+      "es": "Dica signora, cosa le do? Guardi che pomodori.",
+      "pt": "Tell me, what can I give you? Look at these tomatoes.",
+      "tts": "Dica signora, cosa le do? Guardi che pomodori."
+    },
+    {
+      "consulta": [
+        "comprar/mercado",
+        "comer/temporada"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i09-p01",
+      "promptPt": "Ask what is in season right now. Speak now.",
+      "audioKey": "it-i09-t01",
+      "es": "Cosa c'è di buono adesso?",
+      "pinyin": "KO-za cheh dee BWO-no a-DES-so",
+      "pt": "What's good right now?",
+      "tts": "Cosa c'è di buono adesso?"
+    },
+    {
+      "consulta": [
+        "comprar/mercado"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i09-p02",
+      "promptPt": "Order a small amount — enough for two people, today. Speak now.",
+      "audioKey": "it-i09-t02",
+      "es": "Me ne dia due etti, per favore.",
+      "pinyin": "meh neh DEE-a DOO-eh ET-tee per fa-VO-re",
+      "pt": "Give me two hundred grams, please.",
+      "tts": "Me ne dia due etti, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i09-n03",
+      "pt": "Un etto is a hundred grams and it is how food is bought here. Due etti of cheese is a normal, unembarrassing amount."
+    },
+    {
+      "consulta": [
+        "comprar/mercado",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "assaggiare",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i09-p03",
+      "promptPt": "Ask to taste before committing, using the frame from B06. Speak now.",
+      "audioKey": "it-i09-t03",
+      "es": "Posso assaggiare?",
+      "pinyin": "POS-so as-sa-JA-re",
+      "pt": "Can I taste it?",
+      "tts": "Posso assaggiare?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i09-n04",
+      "bloco": "capsula",
+      "pt": "Then the evening walk. From six the whole town is outside, dressed, walking slowly, and going nowhere in particular."
+    },
+    {
+      "consulta": [
+        "conversa/planos"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i09-p04",
+      "promptPt": "Ask where people go for the evening walk. Speak now.",
+      "audioKey": "it-i09-t04",
+      "es": "Dove si fa la passeggiata la sera?",
+      "pinyin": "DO-ve see fa la pas-se-JA-ta la SE-ra",
+      "pt": "Where do people take the evening walk?",
+      "tts": "Dove si fa la passeggiata la sera?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i09-r02",
+      "receptivo": true,
+      "acao": "Go at seven, not at five. Earlier and the street is still empty.",
+      "es": "Sul corso, verso le sette. Prima non c'è nessuno.",
+      "pt": "On the main street, around seven. Before that there's nobody.",
+      "tts": "Sul corso, verso le sette. Prima non c'è nessuno."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i09-p05",
+      "promptPt": "Ask whether anything is on this week. Speak now.",
+      "audioKey": "it-i09-t05",
+      "es": "C'è qualche festa questa settimana?",
+      "pinyin": "cheh KWAL-keh FES-ta KWES-ta set-tee-MA-na",
+      "pt": "Is there any festival on this week?",
+      "tts": "C'è qualche festa questa settimana?",
+      "molde": "C-E",
+      "encaixe": "qualche festa"
+    },
+    {
+      "consulta": [
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i09-p06",
+      "promptPt": "The bar has the match on. Ask who is playing. Speak now.",
+      "audioKey": "it-i09-t06",
+      "es": "Chi gioca stasera?",
+      "pinyin": "kee JO-ka sta-SE-ra",
+      "pt": "Who's playing tonight?",
+      "tts": "Chi gioca stasera?"
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "guardare la partita qui",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i09-p07",
+      "promptPt": "Ask whether you can watch it there. Speak now.",
+      "audioKey": "it-i09-t07",
+      "es": "Posso guardare la partita qui?",
+      "pinyin": "POS-so gwar-DA-re la par-TEE-ta kwee",
+      "pt": "Can I watch the match here?",
+      "tts": "Posso guardare la partita qui?"
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i09-p08",
+      "promptPt": "Ask which team is the local one, so you know who to sit with. Speak now.",
+      "audioKey": "it-i09-t08",
+      "es": "Qual è la squadra di qui?",
+      "pinyin": "kwal eh la SKWA-dra dee kwee",
+      "pt": "Which is the local team?",
+      "tts": "Qual è la squadra di qui?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i09-s01",
+      "es": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?",
+      "pinyin": "KO-za cheh dee BWO-no a-DES-so. meh neh DEE-a DOO-eh ET-tee per fa-VO-re. DO-ve see fa la pas-se-JA-ta la SE-ra",
+      "pt": "Shadow the day: market, purchase, evening.",
+      "tts": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i09-n05",
+      "bloco": "recap",
+      "pt": "I09 done. Market before noon, passeggiata from seven, the match in the bar — and etti is how you buy anything."
+    }
   ],
   "aprofundar": {
     "titulo": "The rhythm nobody writes down",
     "secoes": [
-      { "titulo": "Etti, not grams", "corpo": "Un etto is one hundred grams. Due etti, tre etti — that is the unit for cheese, cured meat, olives and most things sold by weight. Asking for four hundred grams is understood but marks you instantly.", "exemplos": [{ "es": "Me ne dia due etti.", "pt": "Give me two hundred grams." }, { "es": "Cosa c'è di buono adesso?", "pt": "What's good right now?" }] },
-      { "titulo": "Do not touch the produce", "corpo": "At a market stall the vendor picks. Handling the fruit yourself is a small breach with a large signal attached, and pointing does exactly the same job." },
-      { "titulo": "The passeggiata is real and it has a clock", "corpo": "In most towns the evening walk starts around six or seven and runs along one particular street or square that everybody knows. Going at the wrong hour or on the wrong street is why some visitors conclude it does not happen anymore." },
-      { "titulo": "The match is a way in", "corpo": "Asking which team is the local one, before saying anything about football, is the single easiest conversation opener available in a bar. The answer is never neutral and is always given at length." }
+      {
+        "titulo": "Etti, not grams",
+        "corpo": "Un etto is one hundred grams. Due etti, tre etti — that is the unit for cheese, cured meat, olives and most things sold by weight. Asking for four hundred grams is understood but marks you instantly.",
+        "exemplos": [
+          {
+            "es": "Me ne dia due etti.",
+            "pt": "Give me two hundred grams."
+          },
+          {
+            "es": "Cosa c'è di buono adesso?",
+            "pt": "What's good right now?"
+          }
+        ]
+      },
+      {
+        "titulo": "Do not touch the produce",
+        "corpo": "At a market stall the vendor picks. Handling the fruit yourself is a small breach with a large signal attached, and pointing does exactly the same job."
+      },
+      {
+        "titulo": "The passeggiata is real and it has a clock",
+        "corpo": "In most towns the evening walk starts around six or seven and runs along one particular street or square that everybody knows. Going at the wrong hour or on the wrong street is why some visitors conclude it does not happen anymore."
+      },
+      {
+        "titulo": "The match is a way in",
+        "corpo": "Asking which team is the local one, before saying anything about football, is the single easiest conversation opener available in a bar. The answer is never neutral and is always given at length."
+      }
     ]
   },
   "slot": "I09",
@@ -50,7 +251,9 @@
       "oQueMelhora": "You stop scheduling your evenings as though the day ends at six, and you see the hours when the place is most itself.",
       "ondeNaoVale": "Not in the largest tourist centres, where the rhythm has largely flattened out, and not in August in a town that has emptied for the holidays — there the quiet really is quiet.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["it-i09-n04"]
+      "audioKeys": [
+        "it-i09-n04"
+      ]
     }
   ]
 }

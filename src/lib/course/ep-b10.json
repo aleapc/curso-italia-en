@@ -118,7 +118,9 @@
       "es": "A che ora aprite?",
       "pinyin": "a keh O-ra a-PREE-te",
       "pt": "What time do you open?",
-      "tts": "A che ora aprite?"
+      "tts": "A che ora aprite?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "aprite"
     },
     {
       "tipo": "ouvir",

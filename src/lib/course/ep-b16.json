@@ -112,7 +112,9 @@
       "es": "A che ora è la colazione?",
       "pinyin": "a keh O-ra eh la ko-la-tsee-O-ne",
       "pt": "What time is breakfast?",
-      "tts": "A che ora è la colazione?"
+      "tts": "A che ora è la colazione?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "è la colazione"
     },
     {
       "tipo": "intro",

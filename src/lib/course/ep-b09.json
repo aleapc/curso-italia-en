@@ -192,7 +192,9 @@
       "es": "A che ora parte?",
       "pinyin": "a keh O-ra PAR-te",
       "pt": "What time does it leave?",
-      "tts": "A che ora parte?"
+      "tts": "A che ora parte?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "parte"
     },
     {
       "consulta": [
