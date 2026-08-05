@@ -1,0 +1,58 @@
+{
+  "id": "i08",
+  "nivel": "intermediario",
+  "numero": 26,
+  "parte": "I08",
+  "titulo": "Being invited into someone's home",
+  "subtitulo": "What to bring, where to sit, the toast that is a fixed formula, and the hour when leaving stops being rude",
+  "cena": "Someone you met three days ago has invited you to lunch on Sunday and you have no idea what any part of that means.",
+  "moldura": "ganha",
+  "frasePiso": "Bring something for the table, wait to be seated, raise the glass with the formula, and leave when the coffee is finished.",
+  "decisao": "aceitar o convite e chegar com a coisa certa na mão, em vez de recusar por não saber como funciona uma casa italiana",
+  "moldes": [],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i08-n01", "gesto": 1, "bloco": "aquecimento", "pt": "An invitation home is the best thing that can happen on this trip, and the only reason to refuse one is not knowing how it works." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i08-r01", "receptivo": true, "acao": "Say yes now. Work out the details after.", "es": "Domenica venite a pranzo da noi. Alle una.", "pt": "Come to lunch at ours on Sunday. At one.", "tts": "Domenica venite a pranzo da noi. Alle una." },
+    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i08-p01", "promptPt": "Accept warmly and immediately. Speak now.", "audioKey": "it-i08-t01", "es": "Con molto piacere, grazie dell'invito.", "pinyin": "kon MOL-to pya-CHE-re, GRA-tsee-eh del-leen-VEE-to", "pt": "With great pleasure, thank you for the invitation.", "tts": "Con molto piacere, grazie dell'invito." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i08-n02", "bloco": "corpo", "pt": "Then ask what to bring. The answer is usually nothing, and you bring something anyway — that exchange is part of the form." },
+    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i08-p02", "promptPt": "Ask what you can bring. Speak now.", "audioKey": "it-i08-t02", "es": "Cosa posso portare?", "pinyin": "KO-za POS-so por-TA-re", "pt": "What can I bring?", "tts": "Cosa posso portare?" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i08-r02", "es": "Ma niente, che dice! Portate solo voi stessi.", "pt": "Nothing at all, what are you saying! Just bring yourselves.", "tts": "Ma niente, che dice! Portate solo voi stessi." },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i08-n03", "pt": "That is not an instruction. Bring dessert from a good pastry shop, or flowers, or wine — something for the table." },
+    { "consulta": ["conversa/convite", "comprar/presente"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i08-p03", "promptPt": "You arrive holding something. Hand it over. Speak now.", "audioKey": "it-i08-t03", "es": "Ho portato il dolce, spero vada bene.", "pinyin": "oh por-TA-to eel DOL-che, SPE-ro VA-da BEH-ne", "pt": "I brought dessert, I hope that's all right.", "tts": "Ho portato il dolce, spero vada bene." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-i08-n04", "bloco": "capsula", "pt": "At the table, wait to be placed. Seats at an Italian family table are not neutral, and someone will tell you where to go." },
+    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i08-p04", "promptPt": "Ask where you should sit rather than choosing. Speak now.", "audioKey": "it-i08-t04", "es": "Dove mi metto?", "pinyin": "DO-ve mee MET-to", "pt": "Where should I sit?", "tts": "Dove mi metto?" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-i08-n05", "pt": "The toast is a formula, not a speech. Glasses up, eyes on each person, cin cin or salute. That is the whole thing." },
+    { "consulta": ["conversa/brinde"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i08-p05", "promptPt": "Raise your glass and say the formula. Speak now.", "audioKey": "it-i08-t05", "es": "Cin cin! Alla salute!", "pinyin": "cheen cheen! AL-la sa-LOO-te", "pt": "Cheers! To your health!", "tts": "Cin cin! Alla salute!" },
+    { "consulta": ["comer/pedido", "conversa/elogiar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i08-p06", "promptPt": "Praise the food to the person who cooked it, by name of dish. Speak now.", "audioKey": "it-i08-t06", "es": "Questo sugo è una meraviglia.", "pinyin": "KWES-to SOO-go eh OO-na me-ra-VEE-lya", "pt": "This sauce is a marvel.", "tts": "Questo sugo è una meraviglia." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-i08-r03", "receptivo": true, "acao": "A second helping is the compliment. Take a small one rather than refusing outright.", "es": "Ne prenda ancora un po', su. Ce n'è tanto.", "pt": "Have a bit more, go on. There's plenty.", "tts": "Ne prenda ancora un po', su. Ce n'è tanto." },
+    { "consulta": ["comer/pedido"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-i08-p07", "promptPt": "Accept a small amount and be honest about your limit. Speak now.", "audioKey": "it-i08-t07", "es": "Solo un pochino, grazie. È troppo buono.", "pinyin": "SO-lo oon po-KEE-no, GRA-tsee-eh. eh TROP-po BWO-no", "pt": "Just a tiny bit, thank you. It's too good.", "tts": "Solo un pochino, grazie. È troppo buono." },
+    { "consulta": ["conversa/despedir"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-i08-p08", "promptPt": "The coffee is finished and it is time. Leave properly. Speak now.", "audioKey": "it-i08-t08", "es": "Vi ringraziamo di cuore, è stato bellissimo.", "pinyin": "vee reen-gra-TSYA-mo dee KWO-re, eh STA-to bel-LEES-see-mo", "pt": "We thank you from the heart, it's been wonderful.", "tts": "Vi ringraziamo di cuore, è stato bellissimo." },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-i08-s01", "es": "Ho portato il dolce, spero vada bene. Dove mi metto? Cin cin! Vi ringraziamo di cuore.", "pinyin": "oh por-TA-to eel DOL-che SPE-ro VA-da BEH-ne. DO-ve mee MET-to. cheen cheen. vee reen-gra-TSYA-mo dee KWO-re", "pt": "Shadow the arc: arrive, sit, toast, leave.", "tts": "Ho portato il dolce, spero vada bene. Dove mi metto? Cin cin! Vi ringraziamo di cuore." },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-i08-n06", "bloco": "recap", "pt": "I08 done. Say yes, bring something, wait to be seated, raise the glass, and go when the coffee is done." }
+  ],
+  "aprofundar": {
+    "titulo": "The shape of a Sunday lunch",
+    "secoes": [
+      { "titulo": "Niente means bring something", "corpo": "The refusal of your offer is part of the exchange, not the answer to it. Dessert from a proper pasticceria is the safest choice; flowers work; wine works if you know what they drink.", "exemplos": [{ "es": "Cosa posso portare?", "pt": "What can I bring?" }, { "es": "Ho portato il dolce.", "pt": "I brought dessert." }] },
+      { "titulo": "Cin cin, and the eyes", "corpo": "Cin cin and salute are both standard. The part that matters more than the word is looking at each person as you touch glasses — skipping the eye contact is the thing people notice." },
+      { "titulo": "Lunch is long by design", "corpo": "A Sunday pranzo can run three or four hours through several courses, coffee, and often something after it. Arriving with a hard stop two hours later means leaving in the middle of the event rather than at the end of it." },
+      { "titulo": "The coffee is the signal", "corpo": "Once coffee has been served and drunk, leaving becomes normal rather than early. Before that, standing up reads as the meal having gone wrong." }
+    ]
+  },
+  "slot": "I08",
+  "permissao": "You are allowed to accept an invitation from someone you barely know. Being invited to a table is how Italian hospitality actually works, saying yes is the expected answer, and the version of this trip where you decline because you are unsure of the etiquette is the poorer one by a wide margin.",
+  "permissaoAudioKey": "it-i08-n01",
+  "espelho": "Anyone who has turned down an invitation from a neighbour because accepting felt like an imposition knows the reflex. The uncertainty is not about Italy — it is about believing the offer was made out of politeness rather than because they meant it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You are full and say no to a second helping, and the food keeps being offered — three or four more times, insistently.",
+      "suaLeitura": "They are not listening to me, and I will have to eat it to be polite.",
+      "oQueEAli": "In many Italian households the repeated offer is the hospitality performing itself, and a first refusal is read as politeness rather than as a decision. The insistence is affection, not pressure.",
+      "oQueVoceFaz": "Take a token amount — solo un pochino — and pair the refusal with praise. Accepting a little closes the exchange in a way a flat no does not.",
+      "oQueMelhora": "You stop having the same negotiation every ten minutes, and the host gets the acknowledgement the offer was actually asking for.",
+      "ondeNaoVale": "Not when there is an allergy or a real dietary limit involved — there, the hammer sentence from B13 applies and a token amount is exactly the wrong move.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-i08-n05"]
+    }
+  ]
+}
