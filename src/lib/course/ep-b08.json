@@ -138,7 +138,9 @@
       "audioKey": "it-b08-r03",
       "es": "Allora, prende la seconda a destra, poi sempre dritto fino alla chiesa, e dopo la piazza gira a sinistra.",
       "pt": "So, take the second right, then straight on to the church, and after the square turn left.",
-      "tts": "Allora, prende la seconda a destra, poi sempre dritto fino alla chiesa, e dopo la piazza gira a sinistra."
+      "tts": "Allora, prende la seconda a destra, poi sempre dritto fino alla chiesa, e dopo la piazza gira a sinistra.",
+      "receptivo": true,
+      "acao": "Do not try to hold it. Ask è lontano? instead."
     },
     {
       "consulta": [
@@ -236,7 +238,8 @@
       "es": "C'è una farmacia qui vicino? È lontano? Mi può mostrare sulla mappa?",
       "pinyin": "cheh OO-na far-ma-CHEE-a kwee vee-CHEE-no. eh lon-TA-no. mee pwoh mos-TRA-re SUL-la MAP-pa",
       "pt": "Shadow the ladder: exists, distance, map.",
-      "tts": "C'è una farmacia qui vicino? È lontano? Mi può mostrare sulla mappa?"
+      "tts": "C'è una farmacia qui vicino? È lontano? Mi può mostrare sulla mappa?",
+      "molde": "C-E"
     },
     {
       "tipo": "recap",

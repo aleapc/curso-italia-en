@@ -43,6 +43,7 @@
         "B10",
         "B11",
         "B15",
+        "B16",
         "B18",
         "I09"
       ],
@@ -96,6 +97,7 @@
       "tipoBuraco": "coisa",
       "casa": "B08",
       "redisparos": [
+        "B10",
         "B11",
         "B16",
         "I03"
@@ -124,8 +126,11 @@
       "casa": "B03",
       "redisparos": [
         "B04",
+        "B07",
         "B08",
-        "B17"
+        "B10",
+        "B13",
+        "B14"
       ],
       "tiles": [
         "reparo",
@@ -151,6 +156,7 @@
       "casa": "B11",
       "redisparos": [
         "B15",
+        "B18",
         "I10"
       ],
       "tiles": [
@@ -202,6 +208,8 @@
       "tipoBuraco": "coisa",
       "casa": "B14",
       "redisparos": [
+        "B15",
+        "B16",
         "I02",
         "I07"
       ],

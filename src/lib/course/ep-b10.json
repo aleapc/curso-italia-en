@@ -25,7 +25,8 @@
       "receptivo": true,
       "es": "Chiuso per ferie. Riapriamo il ventidue agosto.",
       "pt": "Closed for holidays. We reopen on the twenty-second of August.",
-      "tts": "Chiuso per ferie. Riapriamo il ventidue agosto."
+      "tts": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "acao": "Read the reopening date, not the word. Come back on the twenty-second."
     },
     {
       "tipo": "intro",
@@ -41,7 +42,8 @@
       "receptivo": true,
       "es": "Orario continuato. Aperto tutti i giorni.",
       "pt": "Open through the day. Open every day.",
-      "tts": "Orario continuato. Aperto tutti i giorni."
+      "tts": "Orario continuato. Aperto tutti i giorni.",
+      "acao": "Stop planning around a break. This one is open straight through."
     },
     {
       "tipo": "intro",
@@ -71,7 +73,8 @@
       "receptivo": true,
       "es": "Riservato ai clienti. Guasto — fuori servizio.",
       "pt": "Reserved for customers. Broken — out of service.",
-      "tts": "Riservato ai clienti. Guasto, fuori servizio."
+      "tts": "Riservato ai clienti. Guasto, fuori servizio.",
+      "acao": "Buy something or step out, and find the other machine."
     },
     {
       "tipo": "intro",
@@ -124,7 +127,8 @@
       "receptivo": true,
       "es": "Alle sedici. Ora facciamo la pausa.",
       "pt": "At four. We're on the break now.",
-      "tts": "Alle sedici. Ora facciamo la pausa."
+      "tts": "Alle sedici. Ora facciamo la pausa.",
+      "acao": "Do not wait outside. Come back at four and use the two hours."
     },
     {
       "tipo": "intro",
@@ -198,7 +202,9 @@
       "es": "Me lo può scrivere?",
       "pinyin": "meh lo pwoh skree-VE-re",
       "pt": "Can you write it down for me?",
-      "tts": "Me lo può scrivere?"
+      "tts": "Me lo può scrivere?",
+      "molde": "MI-PUO",
+      "encaixe": "scrivere"
     },
     {
       "consulta": [

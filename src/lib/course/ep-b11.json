@@ -155,7 +155,8 @@
       "receptivo": true,
       "es": "Sono due e cinquanta. Prima paghi alla cassa.",
       "pt": "That's two fifty. You pay at the till first.",
-      "tts": "Sono due e cinquanta. Prima paghi alla cassa."
+      "tts": "Sono due e cinquanta. Prima paghi alla cassa.",
+      "acao": "Go to the till first, pay, then take the receipt to the counter."
     },
     {
       "tipo": "intro",
@@ -238,7 +239,8 @@
       "es": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?",
       "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo. eh al BAN-ko KWAN-to KOS-ta. KWAN-to KOS-ta een TOOT-to",
       "pt": "Shadow the same two words across three different commitments.",
-      "tts": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?"
+      "tts": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?",
+      "molde": "QUANTO-COSTA"
     },
     {
       "tipo": "recap",

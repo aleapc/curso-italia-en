@@ -233,7 +233,8 @@
       "es": "Posso pagare con la carta? Posso usare il bagno? Posso aspettare qui?",
       "pinyin": "POS-so pa-GA-re kon la KAR-ta. POS-so oo-ZA-re eel BA-nyo. POS-so as-pet-TA-re kwee",
       "pt": "Shadow the same opening through three different actions.",
-      "tts": "Posso pagare con la carta? Posso usare il bagno? Posso aspettare qui?"
+      "tts": "Posso pagare con la carta? Posso usare il bagno? Posso aspettare qui?",
+      "molde": "POSSO"
     },
     {
       "tipo": "recap",

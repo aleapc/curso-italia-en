@@ -1,0 +1,269 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "5C",
+  "titulo": "Buying: price, size, try it, change it",
+  "subtitulo": "Four questions cover a shop — and the one about returns is the one you have to ask before you pay",
+  "cena": "The shop is small, the owner is watching you decide, and you cannot tell whether picking it up yourself is normal here.",
+  "moldura": "ganha",
+  "frasePiso": "Ask the price, ask to try it, and ask about changing it — in that order, before the card comes out.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b15-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A shop is four questions long. How much, do you have my size, can I try it, and can I change it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r01",
+      "es": "Buongiorno, dica pure.",
+      "pt": "Good morning, go ahead.",
+      "tts": "Buongiorno, dica pure.",
+      "receptivo": true,
+      "acao": "Greet back before saying what you want."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b15-n02",
+      "bloco": "corpo",
+      "pt": "Dica pure means tell me what you need. Greet first — in a small shop, walking in silently reads as odd."
+    },
+    {
+      "consulta": [
+        "comprar/olhar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p01",
+      "promptPt": "You want to browse without committing. Say so warmly. Speak now.",
+      "audioKey": "it-b15-t01",
+      "es": "Buongiorno, do solo un'occhiata.",
+      "pinyin": "bwon-JOR-no, doh SO-lo oo-nok-kee-A-ta",
+      "pt": "Good morning, I'm just having a look.",
+      "tts": "Buongiorno, do solo un'occhiata."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comprar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "questa",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p02",
+      "promptPt": "Nothing on this one has a tag. Use the frame from B11. Speak now.",
+      "audioKey": "it-b15-t02",
+      "es": "Quanto costa questa?",
+      "pinyin": "KWAN-to KOS-ta KWES-ta",
+      "pt": "How much is this one?",
+      "tts": "Quanto costa questa?"
+    },
+    {
+      "consulta": [
+        "comprar/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "una taglia più grande",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p03",
+      "promptPt": "It is close but tight. Ask about the next size up. Speak now.",
+      "audioKey": "it-b15-t03",
+      "es": "C'è una taglia più grande?",
+      "pinyin": "cheh OO-na TA-lya pyoo GRAN-de",
+      "pt": "Is there a bigger size?",
+      "tts": "C'è una taglia più grande?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r02",
+      "receptivo": true,
+      "es": "Solo la media e la large. Vuole provarla?",
+      "pt": "Only medium and large. Would you like to try it on?",
+      "tts": "Solo la media e la large. Vuole provarla?"
+    },
+    {
+      "consulta": [
+        "comprar/provar",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "provarla",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p04",
+      "promptPt": "Ask to try it on, using the frame from B06. Speak now.",
+      "audioKey": "it-b15-t04",
+      "es": "Posso provarla?",
+      "pinyin": "POS-so pro-VAR-la",
+      "pt": "Can I try it on?",
+      "tts": "Posso provarla?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b15-n03",
+      "bloco": "capsula",
+      "pt": "Now the question people skip. Ask about changing it before you pay, not after — the answer differs by shop."
+    },
+    {
+      "consulta": [
+        "comprar/trocar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p05",
+      "promptPt": "Ask whether you can exchange it if it does not fit. Speak now.",
+      "audioKey": "it-b15-t05",
+      "es": "Posso cambiarla se non va bene?",
+      "pinyin": "POS-so kam-bee-AR-la seh non va BEH-ne",
+      "pt": "Can I exchange it if it doesn't fit?",
+      "tts": "Posso cambiarla se non va bene?",
+      "molde": "POSSO",
+      "encaixe": "cambiarla"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r03",
+      "es": "Entro otto giorni, con lo scontrino.",
+      "pt": "Within eight days, with the receipt.",
+      "tts": "Entro otto giorni, con lo scontrino."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b15-n04",
+      "pt": "With the receipt — again. In shops, at meals, in taxis, the scontrino is the thing that makes anything afterwards possible."
+    },
+    {
+      "consulta": [
+        "comprar/cor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un altro colore",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p06",
+      "promptPt": "You like the shape, not the colour. Ask. Speak now.",
+      "audioKey": "it-b15-t06",
+      "es": "C'è un altro colore?",
+      "pinyin": "cheh oon AL-tro ko-LO-re",
+      "pt": "Is there another colour?",
+      "tts": "C'è un altro colore?"
+    },
+    {
+      "consulta": [
+        "comprar/embrulho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "una borsa",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p07",
+      "promptPt": "Ask them to bring you a bag, using the frame from B14. Speak now.",
+      "audioKey": "it-b15-t07",
+      "es": "Mi porta una borsa, per favore?",
+      "pinyin": "mee POR-ta OO-na BOR-sa per fa-VO-re",
+      "pt": "Could you bring me a bag, please?",
+      "tts": "Mi porta una borsa, per favore?"
+    },
+    {
+      "consulta": [
+        "comprar/decidir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p08",
+      "promptPt": "You have decided not to buy. Leave without buying, warmly. Speak now.",
+      "audioKey": "it-b15-t08",
+      "es": "Ci penso, grazie mille.",
+      "pinyin": "chee PEN-so, GRA-tsee-eh MEEL-le",
+      "pt": "I'll think about it, thank you very much.",
+      "tts": "Ci penso, grazie mille."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b15-s01",
+      "es": "Quanto costa questa? Posso provarla? Posso cambiarla se non va bene?",
+      "pinyin": "KWAN-to KOS-ta KWES-ta. POS-so pro-VAR-la. POS-so kam-bee-AR-la seh non va BEH-ne",
+      "pt": "Shadow the three questions that finish a purchase.",
+      "tts": "Quanto costa questa? Posso provarla? Posso cambiarla se non va bene?",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b15-n05",
+      "bloco": "recap",
+      "pt": "B15 done. Greet, ask the price, try it, ask about changing it — and ci penso lets you leave without buying."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Four questions, one receipt",
+    "secoes": [
+      {
+        "titulo": "Greeting is the entry fee",
+        "corpo": "In a small Italian shop the buongiorno is not optional politeness, it is how you register as a person rather than as traffic. Do solo un'occhiata then buys you the right to browse in peace.",
+        "exemplos": [
+          {
+            "es": "Buongiorno, do solo un'occhiata.",
+            "pt": "Good morning, I'm just having a look."
+          },
+          {
+            "es": "Ci penso, grazie mille.",
+            "pt": "I'll think about it, thanks very much."
+          }
+        ]
+      },
+      {
+        "titulo": "Returns are not automatic",
+        "corpo": "Italian law guarantees a remedy for faulty goods, but a shop is not obliged to take back something you simply changed your mind about. Many will, within a window and with the receipt — which is exactly why you ask before you pay."
+      },
+      {
+        "titulo": "Ci penso is a complete exit",
+        "corpo": "It means I'll think about it, and it is understood as a polite no without being one. Nobody expects an explanation for why you did not buy something."
+      },
+      {
+        "titulo": "Distance selling is different",
+        "corpo": "The fourteen-day right of withdrawal that applies to online purchases in the EU does not extend to something you bought in person. In-store, the rule is whatever the shop told you, which is why you make them tell you."
+      }
+    ]
+  },
+  "slot": "B15",
+  "permissao": "You are allowed to walk out without buying. Ci penso, grazie is a complete and normal ending to a shop conversation in Italy — nobody is owed a purchase for the time they spent showing you two sizes.",
+  "permissaoAudioKey": "it-b15-n01",
+  "espelho": "Anyone who has bought something they did not want because leaving felt rude knows the pressure this part removes. It has nothing to do with Italian — it is the small-shop version of not wanting to disappoint someone who was nice to you.",
+  "fichasCulturais": [
+    {
+      "sinal": "You walk into a small shop and the owner greets you and stays near, rather than leaving you alone to browse.",
+      "suaLeitura": "I am being watched, or pressured to buy.",
+      "oQueEAli": "In a small Italian shop the greeting and the attention are the service, and the customer is expected to greet back. Being left completely alone is closer to indifference than to respect.",
+      "oQueVoceFaz": "Say buongiorno and do solo un'occhiata. That answers the greeting and asks for room at the same time.",
+      "oQueMelhora": "You get the space to look properly, and if you do want something you have already opened a conversation instead of starting cold.",
+      "ondeNaoVale": "Not in large chains or supermarkets, where staff genuinely do leave you alone and a greeting to the room would be unusual.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b15-n02"
+      ]
+    }
+  ]
+}

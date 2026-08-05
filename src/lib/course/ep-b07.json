@@ -68,7 +68,9 @@
       "audioKey": "it-b07-r01",
       "es": "Uscita cinque, appena fuori.",
       "pt": "Exit five, just outside.",
-      "tts": "Uscita cinque, appena fuori."
+      "tts": "Uscita cinque, appena fuori.",
+      "receptivo": true,
+      "acao": "Walk to exit five before looking for anything else."
     },
     {
       "tipo": "intro",
@@ -160,7 +162,9 @@
       "es": "Mi può fare la ricevuta?",
       "pinyin": "mee pwoh FA-re la ree-che-VOO-ta",
       "pt": "Can you give me a receipt?",
-      "tts": "Mi può fare la ricevuta?"
+      "tts": "Mi può fare la ricevuta?",
+      "molde": "MI-PUO",
+      "encaixe": "fare la ricevuta"
     },
     {
       "consulta": [
@@ -219,7 +223,8 @@
       "es": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie.",
       "pinyin": "do-VEH la fer-MA-ta day TAK-see. a KWES-to een-dee-REET-tso per fa-VO-re. kwee va BEH-ne GRA-tsee-eh",
       "pt": "Shadow the ride from rank to address to stop.",
-      "tts": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie."
+      "tts": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie.",
+      "molde": "DOV-E"
     },
     {
       "tipo": "recap",

@@ -178,7 +178,9 @@
       "audioKey": "it-b12-r02",
       "es": "Il formaggio è già dentro. Le faccio un altro primo?",
       "pt": "The cheese is already in it. Shall I do you a different first course?",
-      "tts": "Il formaggio è già dentro. Le faccio un altro primo?"
+      "tts": "Il formaggio è già dentro. Le faccio un altro primo?",
+      "receptivo": true,
+      "acao": "Take the alternative dish they are offering."
     },
     {
       "tipo": "intro",
@@ -228,7 +230,8 @@
       "es": "Senza cipolla, per favore. Senza ghiaccio, per favore. Acqua senza gas, per favore.",
       "pinyin": "SEN-tsa chee-POL-la. SEN-tsa gee-AT-cho. AK-kwa SEN-tsa gas per fa-VO-re",
       "pt": "Shadow one word carrying three completely different requests.",
-      "tts": "Senza cipolla, per favore. Senza ghiaccio, per favore. Acqua senza gas, per favore."
+      "tts": "Senza cipolla, per favore. Senza ghiaccio, per favore. Acqua senza gas, per favore.",
+      "molde": "SENZA"
     },
     {
       "tipo": "recap",

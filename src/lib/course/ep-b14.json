@@ -114,7 +114,8 @@
       "receptivo": true,
       "es": "Coperto due euro a persona, servizio dieci per cento.",
       "pt": "Cover charge two euros per person, service ten percent.",
-      "tts": "Coperto due euro a persona, servizio dieci per cento."
+      "tts": "Coperto due euro a persona, servizio dieci per cento.",
+      "acao": "Read those two lines before doing the arithmetic in your head."
     },
     {
       "consulta": [
@@ -200,7 +201,9 @@
       "es": "Può controllare il totale, per favore?",
       "pinyin": "pwoh kon-trol-LA-re eel to-TA-le per fa-VO-re",
       "pt": "Could you check the total, please?",
-      "tts": "Può controllare il totale, per favore?"
+      "tts": "Può controllare il totale, per favore?",
+      "molde": "MI-PUO",
+      "encaixe": "controllare il totale"
     },
     {
       "consulta": [
@@ -225,7 +228,8 @@
       "es": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?",
       "pinyin": "mee POR-ta eel KON-to. SKOO-zee ko-ZEH KWES-ta VO-che. mee POR-ta lo skon-TREE-no per fa-VO-re",
       "pt": "Shadow the close: ask, read, take the receipt.",
-      "tts": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?"
+      "tts": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?",
+      "molde": "MI-PORTA"
     },
     {
       "tipo": "recap",
