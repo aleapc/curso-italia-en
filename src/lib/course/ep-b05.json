@@ -1,0 +1,58 @@
+{
+  "id": "b05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "2A",
+  "titulo": "Three answers, then stop",
+  "subtitulo": "Purpose, length and where you sleep — short, true, and backed by the booking you saved last night",
+  "cena": "The officer's eyes are already moving to the next person in the queue, and the only thing between you and the stamp is three short sentences.",
+  "moldura": "protege",
+  "frasePiso": "Answer the question that was asked. The booking carries everything else.",
+  "moldes": [],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b05-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Passport control is not an Italian exam. Three jobs only: why you came, how long, where you sleep. True answer, then stop." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b05-r01", "es": "Buongiorno. Qual è il motivo del viaggio?", "pt": "Good morning. What is the purpose of your trip?", "tts": "Buongiorno. Qual è il motivo del viaggio?" },
+    { "consulta": ["chegar/imigracao", "chegar/motivo"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b05-p01", "promptPt": "You are travelling for a holiday. One sentence. Speak now.", "audioKey": "it-b05-t01", "es": "Sono in vacanza.", "pinyin": "SO-no een va-KAN-tsa", "pt": "I'm on holiday.", "tts": "Sono in vacanza." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b05-r02", "es": "Quanto tempo si ferma?", "pt": "How long are you staying?", "tts": "Quanto tempo si ferma?" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b05-n02", "bloco": "corpo", "pt": "Use your real number. Ten days is the rehearsal value, not a line to memorise for every trip." },
+    { "consulta": ["chegar/duracao"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b05-p02", "promptPt": "Give only the duration, nothing else. Speak now.", "audioKey": "it-b05-t02", "es": "Dieci giorni.", "pinyin": "dee-EH-chee JOR-nee", "pt": "Ten days.", "tts": "Dieci giorni." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b05-r03", "es": "Dove alloggia?", "pt": "Where are you staying?", "tts": "Dove alloggia?" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b05-n03", "pt": "Not the story of how you found the hotel. Name it, and let the booking you saved hold the address." },
+    { "consulta": ["chegar/imigracao", "dormir/confirmar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b05-p03", "promptPt": "Say where you are staying, briefly. Speak now.", "audioKey": "it-b05-t03", "es": "In un hotel a Roma.", "pinyin": "een oon o-TEL a RO-ma", "pt": "In a hotel in Rome.", "tts": "In un hotel a Roma." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b05-r04", "es": "Ha la prenotazione?", "pt": "Do you have the booking?", "tts": "Ha la prenotazione?" },
+    { "consulta": ["chegar/imigracao", "antes/reserva"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b05-p04", "promptPt": "Hand over the offline confirmation without adding a speech. Speak now.", "audioKey": "it-b05-t04", "es": "Sì, eccola.", "pinyin": "see, EK-ko-la", "pt": "Yes, here it is.", "tts": "Sì, eccola." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b05-n04", "bloco": "capsula", "pt": "Eccola is the whole sentence. Two syllables and an outstretched hand beat a paragraph every time." },
+    { "consulta": ["reparo/nao-entendi"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b05-p05", "promptPt": "You did not catch the question. Ask cleanly, without apologising twice. Speak now.", "audioKey": "it-b05-t05", "es": "Scusi, non ho capito la domanda.", "pinyin": "SKOO-zee, non oh ka-PEE-to la do-MAN-da", "pt": "Sorry, I didn't understand the question.", "tts": "Scusi, non ho capito la domanda." },
+    { "consulta": ["chegar/imigracao"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b05-p06", "promptPt": "Say you are travelling alone. Speak now.", "audioKey": "it-b05-t06", "es": "Viaggio da solo.", "pinyin": "vee-AJ-jo da SO-lo", "pt": "I'm travelling alone.", "tts": "Viaggio da solo." },
+    { "consulta": ["chegar/imigracao", "transporte/destino"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b05-p07", "promptPt": "They ask if you are visiting other cities. Answer briefly and truthfully. Speak now.", "audioKey": "it-b05-t07", "es": "Poi vado a Firenze.", "pinyin": "poy VA-do a fee-REN-tse", "pt": "Then I'm going to Florence.", "tts": "Poi vado a Firenze." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b05-r05", "es": "Va bene. Buon viaggio.", "pt": "All right. Have a good trip.", "tts": "Va bene. Buon viaggio." },
+    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b05-p08", "promptPt": "Close it in two words and move on. Speak now.", "audioKey": "it-b05-t08", "es": "Grazie, buongiorno.", "pinyin": "GRA-tsee-eh, bwon-JOR-no", "pt": "Thank you, good day.", "tts": "Grazie, buongiorno." },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-b05-s01", "es": "Sono in vacanza. Dieci giorni. In un hotel a Roma. Sì, eccola.", "pinyin": "SO-no een va-KAN-tsa. dee-EH-chee JOR-nee. een oon o-TEL a RO-ma. see, EK-ko-la", "pt": "Shadow the three answers with a clean stop after each.", "tts": "Sono in vacanza. Dieci giorni. In un hotel a Roma. Sì, eccola." },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-b05-n05", "bloco": "recap", "pt": "B05 done. Purpose, duration, where you sleep. Short is not evasive — short means the answer matched the question." }
+  ],
+  "aprofundar": {
+    "titulo": "The border is a matching task",
+    "secoes": [
+      { "titulo": "True beats fluent", "corpo": "Never repeat the lesson's ten days when your itinerary says something else. Replace the number with the truth; the structure stays exactly as short." },
+      { "titulo": "One question, one payload", "corpo": "Purpose, duration and accommodation are three separate answers. Do not stack all three unless you were asked for them together — the officer is working through a queue of matched pairs." },
+      { "titulo": "Let the document speak", "corpo": "Eccola moves the exchange from your memory to your evidence. It is the shortest useful sentence in the whole course and it does more work than any explanation.", "exemplos": [{ "es": "Ha la prenotazione?", "pt": "Do you have the booking?" }, { "es": "Sì, eccola.", "pt": "Yes, here it is." }] },
+      { "titulo": "Rules move, so check before you fly", "corpo": "Entry requirements for non-EU travellers to the Schengen area have been changing, including new electronic entry systems phased in across borders. This part teaches the conversation, not the paperwork — verify the current requirement with an official source close to departure." }
+    ]
+  },
+  "slot": "B05",
+  "permissao": "You are allowed to answer in three words and stop. A short true answer is not suspicious — over-explaining, filling silence with unasked detail or trying to sound friendlier than the question calls for is what actually slows a border desk down.",
+  "permissaoAudioKey": "it-b05-n01",
+  "espelho": "Anyone who has over-answered a customs officer at home by volunteering details nobody wanted knows the instinct this part corrects. It is not an Italian problem — it is the nervous habit of filling silence with more words than the question needs, and it reads the same on either side of any border.",
+  "fichasCulturais": [
+    {
+      "sinal": "The officer asks one short question and you find yourself adding an explanation nobody requested — why this trip, what you did last time, how excited you are.",
+      "suaLeitura": "More detail sounds friendlier, and proves I have nothing to hide.",
+      "oQueEAli": "The desk is processing a queue of short matched answers. A reply that runs past the question it answered reads as something to double-check, not as warmth.",
+      "oQueVoceFaz": "Answer only the payload of the question you were just asked, then stop and wait for the next one.",
+      "oQueMelhora": "The exchange moves at the pace the officer is already set up for, and you are through faster rather than slower.",
+      "ondeNaoVale": "Not when the officer asks a compound question or explicitly invites more detail — then answering everything they actually asked is the match, and a clipped reply would be the mismatch.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-b05-n01"]
+    }
+  ]
+}

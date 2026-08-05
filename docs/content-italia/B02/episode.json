@@ -1,0 +1,69 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "1B",
+  "titulo": "Say it before you need it",
+  "subtitulo": "Buongiorno on the way in, permesso through a crowd, scusi to open a question — Italian courtesy is timing, not vocabulary",
+  "cena": "You are half a step inside the shop and the owner has already looked up, waiting for the one word that says you are a person and not a browser.",
+  "moldura": "ganha",
+  "frasePiso": "Four short words, each said one beat earlier than an English speaker would. That is the whole of Italian politeness at this level.",
+  "moldes": [],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b02-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Italian courtesy is not long sentences. It is timing — the right short word, one beat before you act." },
+    { "tipo": "ouvir", "voz": "target_it_f", "audioKey": "it-b02-t01", "es": "Buongiorno!", "pinyin": "bwon-JOR-no", "pt": "Good morning. Said on entering, to the room, before anything else.", "tts": "Buongiorno!" },
+    { "consulta": ["simpatia/saudacao", "chegar/entrar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b02-p01", "promptPt": "You step into a small shop in the morning. Greet the room before you look at anything. Speak now.", "audioKey": "it-b02-t01", "es": "Buongiorno!", "pinyin": "bwon-JOR-no", "pt": "Good morning!" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b02-n02", "bloco": "corpo", "pt": "Buongiorno runs until mid-afternoon, then buonasera takes over. Nobody minds if you switch early." },
+    { "consulta": ["simpatia/saudacao"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b02-p02", "promptPt": "It is now evening and you are entering a restaurant. Greet them. Speak now.", "audioKey": "it-b02-t02", "es": "Buonasera!", "pinyin": "bwo-na-SEH-ra", "pt": "Good evening!", "tts": "Buonasera!" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b02-n03", "pt": "Now the body move. Permesso goes before you squeeze past someone — you announce the movement, you do not apologise for it." },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b02-t03", "es": "Permesso.", "pinyin": "per-MES-so", "pt": "Excuse me — coming through. Hold the double s.", "tts": "Permesso." },
+    { "consulta": ["reparo/apontar", "chegar/sair"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b02-p03", "promptPt": "A crowded bus, and your stop is next. Announce the move before you make it. Speak now.", "audioKey": "it-b02-t03", "es": "Permesso.", "pinyin": "per-MES-so", "pt": "Excuse me — coming through." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b02-n04", "bloco": "capsula", "pt": "Scusi is the other one, and it does different work: it opens a question to a stranger, or repairs a bump." },
+    { "consulta": ["reparo/nao-entendi", "transporte/direcao"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b02-p04", "promptPt": "You need to stop someone on the street to ask something. Open with the right word. Speak now.", "audioKey": "it-b02-t04", "es": "Scusi, posso chiederle una cosa?", "pinyin": "SKOO-zee, POS-so kee-EH-der-le oo-na KO-za", "pt": "Excuse me, can I ask you something?", "tts": "Scusi, posso chiederle una cosa?" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b02-r01", "es": "Certo, mi dica.", "pt": "Of course, go ahead.", "tts": "Certo, mi dica." },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b02-n05", "pt": "Mi dica means the floor is yours. It is not a request for your life story — say the thing you needed." },
+    { "consulta": ["compras/so-olhando"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b02-p05", "promptPt": "In a shop, the owner asks what you need but you are only browsing. Say so, warmly. Speak now.", "audioKey": "it-b02-t05", "es": "Sto solo guardando, grazie.", "pinyin": "sto SO-lo gwar-DAN-do, GRA-tsee-eh", "pt": "I'm just looking, thank you.", "tts": "Sto solo guardando, grazie." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b02-n06", "pt": "Last move: closing. Arrivederci on the way out — one word, said before the door, not after it." },
+    { "consulta": ["simpatia/agradecer", "chegar/sair"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b02-p06", "promptPt": "You have paid and are leaving. Thank them and sign off. Speak now.", "audioKey": "it-b02-t06", "es": "Grazie, arrivederci!", "pinyin": "GRA-tsee-eh, ar-ree-ve-DER-chee", "pt": "Thank you, goodbye!", "tts": "Grazie, arrivederci!" },
+    { "tipo": "ouvir", "voz": "target_it_f", "audioKey": "it-b02-r02", "es": "Arrivederci, buona giornata!", "pt": "Goodbye, have a good day!", "tts": "Arrivederci, buona giornata!" },
+    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b02-p07", "promptPt": "Return the wish, in two words. Speak now.", "audioKey": "it-b02-t07", "es": "Altrettanto!", "pinyin": "al-tret-TAN-to", "pt": "Same to you!", "tts": "Altrettanto!" },
+    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b02-p08", "promptPt": "Someone held a door for you. Thank them, briefly. Speak now.", "audioKey": "it-b02-t08", "es": "Grazie, molto gentile.", "pinyin": "GRA-tsee-eh, MOL-to jen-TEE-le", "pt": "Thank you, very kind.", "tts": "Grazie, molto gentile." },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-b02-s01", "es": "Buongiorno! Permesso. Scusi, posso chiederle una cosa? Grazie, arrivederci!", "pinyin": "bwon-JOR-no. per-MES-so. SKOO-zee, POS-so kee-EH-der-le oo-na KO-za. GRA-tsee-eh, ar-ree-ve-DER-chee", "pt": "Shadow the four moves in the order you will actually use them.", "tts": "Buongiorno! Permesso. Scusi, posso chiederle una cosa? Grazie, arrivederci!" },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-b02-n07", "bloco": "recap", "pt": "B02 done. Buongiorno on the way in, permesso before the body moves, scusi to open a question, arrivederci before the door." }
+  ],
+  "aprofundar": {
+    "titulo": "Two words English collapses into one",
+    "secoes": [
+      { "titulo": "Permesso and scusi are not interchangeable", "corpo": "English says 'excuse me' for both. Italian splits them: permesso announces a movement you are about to make through space, scusi opens a question or repairs a bump. Using scusi to squeeze past works, but permesso is the word the situation wants.", "exemplos": [{ "es": "Permesso.", "pt": "coming through — before you move" }, { "es": "Scusi…", "pt": "excuse me — before you ask" }] },
+      { "titulo": "Ciao is not your word yet", "corpo": "Ciao is informal and mutual — it belongs between people who already tutoiate each other. To a shopkeeper, a waiter or anyone behind a counter, buongiorno and arrivederci are the safe pair. You will hear ciao constantly; hearing it and using it are different permissions." },
+      { "titulo": "Buongiorno has a shelf life", "corpo": "It runs from morning to somewhere in mid-afternoon, when buonasera takes over. The changeover is fuzzy and regional, and nobody is offended by an early buonasera. Buonanotte is only for leaving at the end of the night, not for greeting." },
+      { "titulo": "The greeting is the transaction opening", "corpo": "Walking into a small Italian shop and going straight to the merchandise skips the move that says you are a person. It is not rudeness in your head, but it reads as rudeness in the room — and it costs nothing to fix." }
+    ]
+  },
+  "slot": "B02",
+  "permissao": "You are allowed to say almost nothing and still land it. Buongiorno, permesso, grazie, arrivederci — four words, each placed a beat earlier than instinct. You do not need ciao, and you do not need a sentence.",
+  "permissaoAudioKey": "it-b02-n06",
+  "espelho": "English collapses 'excuse me' into one all-purpose word for moving, asking and apologising, so the three feel like one habit. Italian keeps them apart — and using the all-purpose version for everything is the tell that gives an English speaker away long before the accent does.",
+  "fichasCulturais": [
+    {
+      "sinal": "You walk into a small shop, head straight for the shelf you want, and the owner's face cools before you have said a word.",
+      "suaLeitura": "They do not want to help me, or shopkeepers here are just brusque.",
+      "oQueEAli": "In Italy the greeting is the opening move of the transaction, not decoration around it. Going straight to the merchandise skips the one word that acknowledges the person minding the room, and that omission is what reads as discourteous — not your accent and not your Italian.",
+      "oQueVoceFaz": "Say buongiorno or buonasera to the room on the way in, before you look at anything.",
+      "oQueMelhora": "The same person who cooled a second earlier turns attentive, because you have done the thing that opens the exchange properly.",
+      "ondeNaoVale": "Not in a supermarket or a large chain store with no single person minding the space — the courtesy is about entering a room someone is actively tending, not a rule for every doorway in Italy.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-b02-n01"]
+    },
+    {
+      "sinal": "Everyone around you is saying ciao to each other, so you try it with the waiter and the temperature drops slightly.",
+      "suaLeitura": "Ciao is just the normal Italian hello — I heard it ten times in the last minute.",
+      "oQueEAli": "Ciao is informal and mutual, and it belongs between people who already address each other as tu. Toward someone serving you, it skips a level of formality that Italian still marks, and from a stranger it can land as over-familiar rather than friendly.",
+      "oQueVoceFaz": "Use buongiorno and buonasera with anyone behind a counter, and let ciao stay in your ear rather than your mouth until someone uses it with you first.",
+      "oQueMelhora": "You get the warmth of being correctly polite instead of the small friction of being too familiar too fast.",
+      "ondeNaoVale": "Not with people your own age in a clearly casual setting, or once someone has used ciao with you — at that point it is an invitation and returning it is exactly right.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-b02-n02"]
+    }
+  ]
+}
