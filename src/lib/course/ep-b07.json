@@ -6,7 +6,7 @@
   "titulo": "Dov'è — the question that moves your feet",
   "subtitulo": "Find the official taxi rank, name the address, stop the car where you actually want to get out",
   "cena": "Someone just offered you a ride before you reached the exit, and the official rank is somewhere you have not found yet.",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "frasePiso": "Ask for the place by name, go to it, and let the meter and the address do the rest.",
   "moldes": [
     "DOV-E"
