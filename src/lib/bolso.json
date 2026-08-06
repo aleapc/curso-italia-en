@@ -1,0 +1,44 @@
+{
+  "marca": "Dimmi!",
+  "cabecalho": "Italy, at a glance",
+  "titulo": "Traveler's pocket",
+  "subtitulo": "The essentials stay available in airplane mode.",
+  "rotulos": {
+    "cambio": "Currency converter",
+    "valorEm": "Amount in",
+    "dataCotacao": "Rate date",
+    "avisoCotacao": "Reference only. Check your card or bank rate before spending.",
+    "tomadas": "Plugs & power",
+    "emergencia": "Emergency",
+    "ligar": "Call",
+    "saberUtil": "Useful to know"
+  },
+  "mesmaMoeda": "Italy uses the euro, the same currency you already carry — no conversion needed.",
+  "moedas": {
+    "EUR": { "flag": "🇪🇺", "locale": "en-GB" },
+    "GBP": { "flag": "🇬🇧", "locale": "en-GB" },
+    "USD": { "flag": "🇺🇸", "locale": "en-US" }
+  },
+  "cambio": {
+    "date": "2026-07-27",
+    "rates": {
+      "GBP": 0.85524,
+      "USD": 1.1389
+    }
+  },
+  "emergencia": [
+    { "numero": "112", "oQue": "Single European emergency number — free from any phone, any hour. Multilingual support with live translation for visitors. Call this first." },
+    { "numero": "113", "oQue": "Police (Polizia di Stato)" },
+    { "numero": "115", "oQue": "Fire brigade (Vigili del Fuoco)" },
+    { "numero": "118", "oQue": "Medical emergency / ambulance" }
+  ],
+  "saberUtil": [
+    { "emoji": "☕", "texto": "Bars legally charge two prices for the same drink: al banco (standing at the counter) and al tavolo (at a table), and table service often costs about double — the price list must be posted, so check it before you sit." },
+    { "emoji": "🧾", "texto": "Coperto is a per-person cover charge: not required by law, but legal when clearly stated on the menu; servizio, printed as a percentage, is legal and owed." },
+    { "emoji": "💶", "texto": "Tipping is not expected in Italy — rounding up, or leaving €2–5 in cash after dinner for two, is appreciated and genuinely optional." },
+    { "emoji": "🧑‍⚖️", "texto": "The scontrino fiscale (fiscal receipt) is a legal requirement, not a courtesy — every transaction must come with one, so don't walk out without it." },
+    { "emoji": "🚆", "texto": "A regional digital ticket validates itself at the departure time you chose and can't be moved afterwards; keep the QR code openable on your phone, because not showing it counts as travelling without a valid ticket. Paper tickets still have to be stamped in the machine before boarding." },
+    { "emoji": "💚", "texto": "A green cross means pharmacy, for prescription and over-the-counter medicine. A closed one posts on its door the farmacia di turno list — the nearby pharmacies on the 24/7 rota, with phone numbers." },
+    { "emoji": "🩺", "texto": "An EHIC or GHIC card gives EU and UK visitors reduced-cost access to the public health system, but it covers neither private clinics nor repatriation." }
+  ]
+}
